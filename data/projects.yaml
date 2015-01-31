@@ -1,0 +1,15 @@
+projects:
+  - title: Music Subject Pages
+    slug: music
+    description: no description available
+    start_date: January
+    tags:
+      - design
+      - cms
+      - new biola.edu
+  - title: News and Events Publishing
+    slug: news-event-cms
+    description: no description available
+    start_date: January
+    tags:
+      - cms
