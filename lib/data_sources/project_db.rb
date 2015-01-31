@@ -2,7 +2,7 @@ class ProjectDataSource < ::Nanoc::DataSource
   identifier :project
 
   def up
-    @db = YAML::load(File.read("projects.yaml"))
+    @db = YAML::load(File.read("data/projects.yaml"))
   end
 
   def items

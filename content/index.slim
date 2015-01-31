@@ -2,68 +2,42 @@
 title: "Biola Web Roadmap: 2015"
 ---
 
-#masthead
+header.container-fluid.text-center
+  h1 Biola Web Roadmap: 2015
+  p.lead last updated January, 30, 2015
+
+.container-fluid#control-bar
   .container
     .row
-
-      h1 Biola Web Roadmap: 2015
-      p.lead las updated January, 30, 2015
-
-.container
-  .row
-    ul.nav.nav-pills
-      li.nav-header Categories
-      li
-        a.filter data-filter="all" All
-      li
-        a.filter data-filter=".category-design" Design 
-      li
-        a.filter href="#" data-filter=".category-cms" CMS
-    / button.filter data-filter=".category-design" Design
-    / button.filter data-filter=".category-cms" CMS
-.container#projects-list
-  .row
-    / .col-md-3#side-nav 
-    /   ul.nav.nav-stacked
-    /     - %w(january february march april may june july august september october november december).each do |month|
-    /       li
-    /         a href="##{month}" #{month.capitalize}
-    / .col-md-9 
-    .col-md-3
-      h3#january January
-    .col-md-9
-      - sorted_projects.each do |project|      
-        .project.mix class= project_tag_classes(project[:tags])
-          .panel.panel-default
-            .panel-heading
-              h3.panel-title 
-                = project[:title]
-            .panel-body
-              p=project[:description]
-              .pull-right
-                - project[:tags].each do |tag|
-                  span.label.label-default = tag
-                  '
-
-  .row
-    h3#february February
-      
-    h3#march March
-    
-    h3#april April
-
-    h3#may May
-
-    h3#june June
-
-    h3#july July
-
-    h3#august August
-
-    h3#september September
-
-    h3#october October
-
-    h3#novmeber November
-
-    h3#december December
+      / ul.nav.nav-pills
+      /   li.nav-header Categories
+      /   li
+      /     a.filter data-filter="all" All
+      /   li
+      /     a.filter data-filter=".category-design" Design 
+      /   li
+      /     a.filter href="#" data-filter=".category-cms" CMS
+      .group
+        label Categories:
+        a.btn.btn-primary.filter data-filter="all" All
+        a.btn.btn-primary.filter data-filter=".category-design" Design 
+        a.btn.btn-primary.filter href="#" data-filter=".category-cms" CMS
+.container-fluid#projects-list
+  .container
+    - sorted_projects.group_by{|x| x[:start_date]}.each do |start_date,projects|
+      .row
+        .col-md-2
+          h3#january = start_date
+        .col-md-10
+          - projects.each do |project|
+            .project.mix class= project_tag_classes(project[:tags])
+              .panel.panel-default
+                .panel-heading
+                  h3.panel-title 
+                    = project[:title]
+                .panel-body
+                  p=project[:description]
+                .panel-footer.text-right
+                  - project[:tags].each do |tag|
+                    span.label.label-default = tag
+                    '

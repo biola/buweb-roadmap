@@ -2,7 +2,7 @@ projects:
   - title: Music Subject Pages
     slug: music
     description: no description available
-    start_date: January
+    start_date: 2015.01
     tags:
       - design
       - cms
@@ -10,6 +10,35 @@ projects:
   - title: News and Events Publishing
     slug: news-event-cms
     description: no description available
-    start_date: January
+    start_date: 2015.01
     tags:
       - cms
+  - title: Biola Now Redesign
+    slug: biola-now
+    description: no description available
+    start_date: 2015.02
+    tags:
+      - design
+      - cms
+  - title: Publications/Documents
+    slug: publications
+    description: no description available
+    start_date: 2015.02
+    tags:
+      - design
+      - cms
+  - title: Features
+    slug: features
+    description: build out WCMS to handle features. build features API. build django plugin for pulling features from WCMS
+    start_date: 2015.02
+    tags:
+      - cms
+      - api
+      - django
+  - title: Events Publishing Integration
+    slug: events-publishing-integration
+    description: create a deploy a django plugin to pull WCMS events to Django websites
+    start_date: 2015.02
+    tags:
+      - api
+      - django

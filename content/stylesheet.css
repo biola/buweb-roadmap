@@ -1,3 +1,8 @@
+#control-bar { text-align: center; background-color: #fff; padding: 20px; }
+#control-bar .group label { margin-right: 8px; font-weight: bold;}
+#control-bar .group .btn{ margin-right: 8px; }
+#projects-list { background-color: #fff; padding-top: 23px;}
+
 .nav.nav-pills .clear, .nav.nav-pills .nav-header {
   padding: 5px 15px;
   font-weight: bold;
@@ -22,8 +27,15 @@
 
 #projects-list .project.mix {
   margin-right: 20px;
-  /*width: 33%;*/
+  width: 25%;
+  vertical-align: top;
 }
+
+#projects-list .project.mix .panel-body {
+  min-height: 120px;
+}
+
+#projects-list .panel .panel-footer { background-color: #fff; }
 
 
 @import url("//fonts.googleapis.com/css?family=Roboto:300,400,500");
