@@ -2,43 +2,93 @@ projects:
   - title: Music Subject Pages
     slug: music
     description: no description available
-    start_date: 2015.01
+    start_date: "2015.01"
     tags:
       - design
       - cms
       - new biola.edu
   - title: News and Events Publishing
-    slug: news-event-cms
-    description: no description available
-    start_date: 2015.01
+    slug: news-events
+    description: "Phase 1: build news and events into WCMS."
+    start_date: "2015.01"
     tags:
       - cms
+  - title: "Gloval Nav and Site Structure (Part 1)"
+    slug: nav-site-structure-1
+    description: no description available
+    start_date: "2015.02"
+    tags:
+      - design
+  - title: "Gloval Nav and Site Structure (Part 2)"
+    slug: nav-site-structure-2
+    description: no description available
+    start_date: "2015.03"
+    tags:
+      - design
+  - title: "Gloval Nav and Site Structure (Part 3)"
+    slug: nav-site-structure-3
+    description: roll out new global navigation system
+    start_date: "2015.04"
+    tags:
+      - design
+      - cms
+      - django
   - title: Biola Now Redesign
     slug: biola-now
     description: no description available
-    start_date: 2015.02
+    start_date: "2015.02"
     tags:
       - design
       - cms
   - title: Publications/Documents
     slug: publications
-    description: no description available
-    start_date: 2015.02
+    description: Finish Publication model in WCMS. Deploy a publications section to www.
+    start_date: "2015.02"
     tags:
-      - design
       - cms
+      - front end
   - title: Features
     slug: features
     description: build out WCMS to handle features. build features API. build django plugin for pulling features from WCMS
-    start_date: 2015.02
+    start_date: "2015.02"
     tags:
       - cms
       - api
       - django
   - title: Events Publishing Integration
     slug: events-publishing-integration
-    description: create a deploy a django plugin to pull WCMS events to Django websites
-    start_date: 2015.02
+    description: create and deploy a django plugin to pull WCMS events to Django websites
+    start_date: "2015.02"
     tags:
       - api
       - django
+  - title: News Publishing Integration
+    slug: news-publishing-integration
+    description: create and deploy a django plugin to pull WCMS events to Django websites
+    start_date: "2015.02"
+    tags:
+      - api
+      - django
+  - title: Capital Campaign Events
+    slug: capital-campaign-events
+    description: No description available.
+    start_date: "2015.02"
+    tags:
+      - design
+      - django
+      - capital campaign
+  - title: Event Landing Pages and Conferences
+    slug: event-sites
+    description: "Build out WCMS to handle event landing pages and conferences. Include user registrations, email marketing integration, and design a few standard layouts."
+    start_date: "Unscheduled"
+    tags:
+      - design
+      - cms
+  - title: Student Support Pages
+    slug: student-support-pages
+    description: "Design and build a site or section of www for students. The site will be organized around topic and tasks with links to related departments."
+    start_date: "2015.03"
+    tags:
+      - design
+      - cms
+

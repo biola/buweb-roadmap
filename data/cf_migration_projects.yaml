@@ -1,0 +1,131 @@
+projects:
+  - title: Philosophy Subject Pages
+    slug: philosophy-subject
+    description: Migrate from ColdFusion to new Undergrad subject and program pages.
+    start_date: "2015.03"
+    tags:
+      - cms
+      - coldfusion migration
+      - photography
+  - title: Journalism Subject Pages
+    slug: journalism-subject
+    description: Migrate from ColdFusion to new Undergrad subject and program pages.
+    start_date: "2015.02"
+    tags:
+      - cms
+      - coldfusion migration
+      - photography
+  - title: History Subject Pages
+    slug: history-subject
+    description: Migrate from ColdFusion to new Undergrad subject and program pages.
+    start_date: "2015.03"
+    tags:
+      - cms
+      - coldfusion migration
+      - photography
+  - title: Political Science Subject Pages
+    slug: political-science-subject
+    description: Migrate from ColdFusion to new Undergrad subject and program pages.
+    start_date: "2015.03"
+    tags:
+      - cms
+      - coldfusion migration
+      - photography
+  - title: Biblical Studies Subject Pages
+    slug: biblical-studies-subject
+    description: Migrate from ColdFusion to new Undergrad subject and program pages.
+    start_date: "2015.03"
+    tags:
+      - cms
+      - coldfusion migration
+      - photography
+  - title: Psychology Subject Pages
+    slug: psychology-studies-subject
+    description: Migrate from ColdFusion to new Undergrad subject and program pages.
+    start_date: "2015.04"
+    tags:
+      - cms
+      - coldfusion migration
+      - photography
+  - title: Christian Ministries Subject Pages
+    slug: christian-ministries-subject
+    description: Migrate from ColdFusion to new Undergrad subject and program pages.
+    start_date: "2015.04"
+    tags:
+      - cms
+      - coldfusion migration
+      - photography
+  - title: Nursing Subject Pages
+    slug: nursing-subject
+    description: Migrate from ColdFusion to new Undergrad subject and program pages.
+    start_date: "2015.04"
+    tags:
+      - cms
+      - coldfusion migration
+      - photography
+  - title: KHPE Subject Pages
+    slug: khpe-studies-subject
+    description: Migrate from ColdFusion to new Undergrad subject and program pages.
+    start_date: "2015.04"
+    tags:
+      - cms
+      - coldfusion migration
+      - photography
+  - title: Art Subject Pages
+    slug: art-studies-subject
+    description: Migrate from ColdFusion to new Undergrad subject and program pages.
+    start_date: "2015.04"
+    tags:
+      - cms
+      - coldfusion migration
+      - photography
+  - title: CCCE/Study Abroad
+    slug: ccce-study-abroad
+    description: Migrate CCCE and Biola London pages from ColdFusion to newly designed pages. 
+    start_date: "2015.04"
+    tags:
+      - design
+      - cms
+      - coldfusion migration
+      - photography
+  - title: Apologetics
+    slug: apologetics
+    description: "TBD: Migrate from ColdFusion to ??."
+    start_date: "2015.04"
+    tags:
+      - design
+      - cms
+      - coldfusion migration
+  - title: Science and Religion
+    slug: science-religion
+    description: "TBD: Migrate from ColdFusion to ??."
+    start_date: "2015.04"
+    tags:
+      - design
+      - cms
+      - coldfusion migration
+  - title: Registrar
+    slug: registrar
+    description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
+    start_date: "2015.04"
+    tags:
+      - coldfusion migration
+  - title: Campus Safety
+    slug: campus-safety
+    description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
+    start_date: "2015.04"
+    tags:
+      - coldfusion migration
+  - title: Auxiliary Services
+    slug: auxiliary-services
+    description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
+    start_date: "2015.04"
+    tags:
+      - coldfusion migration
+  - title: Facilities Services
+    slug: facilities-services
+    description: "Migrate off Coldfusion. Most content is already accounted for in the Directory. Find home for remaining content." 
+    start_date: "2015.03"
+    tags:
+      - cms
+      - coldfusion migration

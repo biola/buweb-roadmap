@@ -1,6 +1,6 @@
 def sorted_projects
   projects = @items.select do |i|
-    i.identifier.start_with?('/external/project/projects/')
+    i.identifier.start_with?('/external/project/')
   end
   projects.sort_by do |e|
     [ e[:start_date], e[:title] ]

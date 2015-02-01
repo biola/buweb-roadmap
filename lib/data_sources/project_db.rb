@@ -2,7 +2,9 @@ class ProjectDataSource < ::Nanoc::DataSource
   identifier :project
 
   def up
-    @db = YAML::load(File.read("data/projects.yaml"))
+    projects = YAML::load(File.read("data/projects.yaml"))["projects"] + YAML::load(File.read("data/cf_migration_projects.yaml"))["projects"]
+    @db = {"projects" => projects}
+    
   end
 
   def items
@@ -10,7 +12,7 @@ class ProjectDataSource < ::Nanoc::DataSource
       Nanoc::Item.new(
         '',
         project,
-        "/projects/#{project['slug']}/"
+        "/#{project['slug']}/"
       )
     end
   end
