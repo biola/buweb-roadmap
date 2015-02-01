@@ -3,7 +3,7 @@ class ProjectDataSource < ::Nanoc::DataSource
 
   def up
     projects = []
-    Dir.glob("data/*_projects.yaml") do |filename|
+    Dir.glob("data/*projects.yaml") do |filename|
       projects = projects + YAML::load(File.read(filename))["projects"]
     end
     # projects = YAML::load(File.read("data/projects.yaml"))["projects"] + YAML::load(File.read("data/cf_migration_projects.yaml"))["projects"]
