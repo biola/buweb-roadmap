@@ -37,6 +37,8 @@
 
 #projects-list .panel .panel-footer { background-color: #fff; }
 
+#projects-list h1, #projects-list h2, #projects-list h3, #projects-list h4 { margin-top: 0px;}
+
 
 @import url("//fonts.googleapis.com/css?family=Roboto:300,400,500");
 /*!

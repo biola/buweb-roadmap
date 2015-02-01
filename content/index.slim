@@ -1,5 +1,5 @@
 ---
-title: "Biola Web Roadmap: 2015"
+title: "2015 Projects List"
 ---
 
 header.container-fluid.text-center
@@ -9,19 +9,16 @@ header.container-fluid.text-center
 .container-fluid#control-bar
   .container
     .row
-      / ul.nav.nav-pills
-      /   li.nav-header Categories
-      /   li
-      /     a.filter data-filter="all" All
-      /   li
-      /     a.filter data-filter=".category-design" Design 
-      /   li
-      /     a.filter href="#" data-filter=".category-cms" CMS
       .group
         label Categories:
         a.btn.btn-primary.filter data-filter="all" All
         a.btn.btn-primary.filter data-filter=".category-design" Design 
         a.btn.btn-primary.filter href="#" data-filter=".category-cms" CMS
+        a.btn.btn-primary.filter href="#" data-filter=".category-api" API
+        a.btn.btn-primary.filter href="#" data-filter=".category-django" Django
+        a.btn.btn-primary.filter href="#" data-filter=".category-coldfusion-migration" CF Migration
+        a.btn.btn-primary.filter href="#" data-filter=".category-capital-campaign" Capital Campaign
+        a.btn.btn-primary.filter href="#" data-filter=".category-photography" Photography
 .container-fluid#projects-list
   .container
     - sorted_projects.group_by{|x| x[:start_date]}.each do |start_date,projects|
