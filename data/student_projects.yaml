@@ -1,0 +1,15 @@
+projects:
+  - title: Student Life Blog
+    slug: student-blog
+    description: Student communications blog to replace studentlife.biola.edu articles.
+    start_date: "2015.04"
+    tags:
+      - design
+      - cms
+  - title: Student Support Pages
+    slug: student-support-pages
+    description: "Design and build a site or section of www for students. The site will be organized around topic and tasks with links to related departments."
+    start_date: "2015.03"
+    tags:
+      - design
+      - cms
