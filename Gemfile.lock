@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    adsf (1.2.0)
+      rack (>= 1.0.0)
     celluloid (0.15.2)
       timers (~> 1.1.0)
     celluloid-io (0.15.0)
@@ -42,6 +44,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    rack (1.5.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.3)
       ffi (>= 0.5.0)
@@ -59,5 +62,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  adsf
   guard-nanoc
   slim
