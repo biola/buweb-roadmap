@@ -8,6 +8,10 @@ $( document ).ready(function() {
           duration: 400,
           effects: 'fade translateZ(-360px) stagger(34ms)',
           easing: 'ease'
+        },
+        controls: {
+        toggleFilterButtons: true,
+        toggleLogic: 'and'
         }
       });  
     });
