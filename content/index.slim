@@ -9,16 +9,31 @@ header.container-fluid.text-center
 .container-fluid#control-bar
   .container
     .row
-      .group
+      .group.people
+        label Status:
+        / a.btn.btn-info.filter data-filter="all" All
+        a.btn.btn-warning.filter data-filter=".category-backlog" Backlog
+        a.btn.btn-success.filter data-filter=".category-in-progress" In Progress
+        a.btn.btn-default.filter data-filter=".category-done" Done
+    .row
+      .group.people
+        label Teams:
+        / a.btn.btn-info.filter data-filter="all" All
+        a.btn.btn-info.filter data-filter=".category-content-migration" Content Migration
+        a.btn.btn-info.filter data-filter=".category-django-devs" Django Devs
+        a.btn.btn-info.filter data-filter=".category-graphic-design" Graphic Design
+        a.btn.btn-info.filter data-filter=".category-ruby-devs" Ruby Devs
+        a.btn.btn-info.filter data-filter=".category-web-design" Web Design
+    .row
+      .group.categories
         label Categories:
-        a.btn.btn-primary.filter data-filter="all" All
-        a.btn.btn-primary.filter data-filter=".category-design" Design 
+        / a.btn.btn-primary.filter data-filter="all" All
+        a.btn.btn-primary.filter data-filter=".category-web-design" Design 
         a.btn.btn-primary.filter href="#" data-filter=".category-cms" CMS
         a.btn.btn-primary.filter href="#" data-filter=".category-api" API
-        a.btn.btn-primary.filter href="#" data-filter=".category-django" Django
         a.btn.btn-primary.filter href="#" data-filter=".category-coldfusion-migration" CF Migration
         a.btn.btn-primary.filter href="#" data-filter=".category-capital-campaign" Capital Campaign
-        a.btn.btn-primary.filter href="#" data-filter=".category-photography" Photography
+        a.btn.btn-primary.filter href="#" data-filter=".category-photography" Photography    
 .container-fluid#projects-list
   .container
     - sorted_projects.group_by{|x| x[:start_date]}.each do |start_date,projects|

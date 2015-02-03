@@ -4,47 +4,55 @@ projects:
     description: no description available
     start_date: "2015.01"
     tags:
-      - design
+      - in progress
+      - web design
       - cms
-      - new biola.edu
+      - ruby devs
+      - content migration
   - title: News and Events Publishing
     slug: news-events
     description: "Phase 1: build news and events into WCMS."
     start_date: "2015.01"
     tags:
+      - in progress
       - cms
   - title: "Gloval Nav and Site Structure (Part 1)"
     slug: nav-site-structure-1
     description: no description available
     start_date: "2015.02"
     tags:
-      - design
+      - backlog
+      - web design
   - title: "Gloval Nav and Site Structure (Part 2)"
     slug: nav-site-structure-2
     description: no description available
     start_date: "2015.03"
     tags:
-      - design
+      - backlog
+      - web design
   - title: "Gloval Nav and Site Structure (Part 3)"
     slug: nav-site-structure-3
     description: roll out new global navigation system
     start_date: "2015.04"
     tags:
-      - design
+      - backlog
+      - web design
       - cms
-      - django
+      - django devs
   - title: Biola Now Redesign
     slug: biola-now
     description: no description available
     start_date: "2015.02"
     tags:
-      - design
+      - backlog
+      - web design
       - cms
   - title: Publications/Documents
     slug: publications
     description: Finish Publication model in WCMS. Deploy a publications section to www.
     start_date: "2015.02"
     tags:
+      - backlog
       - cms
       - front end
   - title: Features
@@ -52,60 +60,68 @@ projects:
     description: build out WCMS to handle features. build features API. build django plugin for pulling features from WCMS
     start_date: "2015.02"
     tags:
+      - backlog
       - cms
       - api
-      - django
+      - django devs
   - title: Events Publishing Integration
     slug: events-publishing-integration
     description: create and deploy a django plugin to pull WCMS events to Django websites
     start_date: "2015.02"
     tags:
+      - backlog
       - api
-      - django
+      - django devs
   - title: News Publishing Integration
     slug: news-publishing-integration
     description: create and deploy a django plugin to pull WCMS events to Django websites
     start_date: "2015.02"
     tags:
+      - backlog
       - api
-      - django
+      - django devs
   - title: Capital Campaign Events
     slug: capital-campaign-events
     description: No description available.
     start_date: "2015.02"
     tags:
-      - design
-      - django
+      - backlog
+      - web design
+      - django devs
       - capital campaign
   - title: Event Landing Pages and Conferences
     slug: event-sites
     description: "Build out WCMS to handle event landing pages and conferences. Include user registrations, email marketing integration, and design a few standard layouts."
     start_date: "TBD"
     tags:
-      - design
+      - backlog
+      - web design
       - cms
   - title: Capital Campaign Giving Site Changes
     slug: capital-campaign-giving-changes
     description: Giving site changes (designed by Graphic Designers?) and implemented by IT Developers.
     start_date: "2015.03"
     tags:
-      - design
-      - django
+      - backlog
+      - web design
+      - django devs
       - capital campaign
   - title: Capital Campaign Landing Page
     slug: capital-campaign-landing-page
     description: Landing pages designed by Graphic Designers and implemented by IT Developers.
     start_date: "2015.03"
     tags:
-      - design
-      - django
+      - backlog
+      - web design
+      - django devs
       - capital campaign
   - title: Capital Campaign Fundraising Challenge
     slug: capital-campaign-fundraising-challenge
     description: Landing pages designed by Graphic Designers and implemented by IT Developers.
     start_date: "2015.08"
     tags:
-      - design
+      - backlog
+      - web design
       - cms
       - capital campaign
   - title: Faculty Development Resources
@@ -113,12 +129,14 @@ projects:
     description: "Create a single page of faculty development resources and links. Content is from Office of Educational Effectiveness."
     start_date: "2015.04"
     tags:
+      - backlog
       - cms
   - title: Philosophy
     slug: philosophy
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.05"
     tags:
+      - backlog
       - photography
       - cms
   - title: Sociology
@@ -126,6 +144,7 @@ projects:
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.05"
     tags:
+      - backlog
       - photography
       - cms
   - title: English
@@ -133,6 +152,7 @@ projects:
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.06"
     tags:
+      - backlog
       - photography
       - cms
   - title: Communication Disorders
@@ -140,6 +160,7 @@ projects:
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.06"
     tags:
+      - backlog
       - photography
       - cms
   - title: Modern Languages
@@ -147,6 +168,7 @@ projects:
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.07"
     tags:
+      - backlog
       - photography
       - cms
   - title: Communications
@@ -154,6 +176,7 @@ projects:
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.07"
     tags:
+      - backlog
       - photography
       - cms
   - title: CMA
@@ -161,6 +184,7 @@ projects:
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.08"
     tags:
+      - backlog
       - photography
       - cms
   - title: Math
@@ -168,6 +192,7 @@ projects:
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.08"
     tags:
+      - backlog
       - photography
       - cms
   - title: Redesigned biola.edu/about
@@ -175,19 +200,80 @@ projects:
     description: Design and build a new biola.edu/about section.
     start_date: "TBD"
     tags:
+      - backlog
       - photography
-      - design
+      - web design
       - cms
   - title: Redesigned biola.edu/academics
     slug: redesign-biola-academics
     description: Design and build a new biola.edu/academics landing page.
     start_date: "TBD"
     tags:
-      - design
+      - backlog
+      - web design
       - cms
   - title: Redesign catalog and degree requirement sheets pages
     slug: redesign-catalog-drs
     description: Design and build a new biola.edu/catalog and biola.edu/academics/degree-requirement-sheets
     start_date: "TBD"
     tags:
-      - design
+      - backlog
+      - web design
+  - title: Redesign Apologetics pages
+    slug: redesign-apologetics
+    description: no description available.
+    start_date: "TBD"
+    tags:
+      - backlog
+      - web design
+      - web design
+  - title: Redesign Talbot
+    slug: redesign-talbot
+    description: no description available.
+    start_date: "TBD"
+    tags:
+      - backlog
+      - web design
+      - web design
+      - cms
+      - ruby devs
+  - title: Redesign Rosemead
+    slug: redesign-rosemead
+    description: no description available.
+    start_date: "TBD"
+    tags:
+      - backlog
+      - web design
+      - web design
+      - cms
+      - ruby devs
+  - title: Redesign School of Education
+    slug: redesign-soe
+    description: no description available.
+    start_date: "TBD"
+    tags:
+      - backlog
+      - web design
+      - web design
+      - cms
+      - ruby devs
+  - title: Redesign Crowell School of Business
+    slug: redesign-crowell
+    description: no description available.
+    start_date: "TBD"
+    tags:
+      - backlog
+      - web design
+      - web design
+      - cms
+      - ruby devs
+  - title: Reorganize Cook School of Intercultural Studies Grad Pages
+    slug: reorganize-csics
+    description: no description available.
+    start_date: "TBD"
+    tags:
+      - backlog
+      - web design
+      - web design
+      - cms
+      - ruby devs

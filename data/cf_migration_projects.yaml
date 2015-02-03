@@ -4,6 +4,7 @@ projects:
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.03"
     tags:
+      - backlog
       - cms
       - coldfusion migration
       - photography
@@ -12,6 +13,7 @@ projects:
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.02"
     tags:
+      - backlog
       - cms
       - coldfusion migration
       - photography
@@ -20,6 +22,7 @@ projects:
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.03"
     tags:
+      - backlog
       - cms
       - coldfusion migration
       - photography
@@ -28,6 +31,7 @@ projects:
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.03"
     tags:
+      - backlog
       - cms
       - coldfusion migration
       - photography
@@ -36,6 +40,7 @@ projects:
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.03"
     tags:
+      - backlog
       - cms
       - coldfusion migration
       - photography
@@ -44,6 +49,7 @@ projects:
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.04"
     tags:
+      - backlog
       - cms
       - coldfusion migration
       - photography
@@ -52,6 +58,7 @@ projects:
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.04"
     tags:
+      - backlog
       - cms
       - coldfusion migration
       - photography
@@ -60,6 +67,7 @@ projects:
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.04"
     tags:
+      - backlog
       - cms
       - coldfusion migration
       - photography
@@ -68,6 +76,7 @@ projects:
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.04"
     tags:
+      - backlog
       - cms
       - coldfusion migration
       - photography
@@ -76,6 +85,7 @@ projects:
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.04"
     tags:
+      - backlog
       - cms
       - coldfusion migration
       - photography
@@ -84,7 +94,8 @@ projects:
     description: Migrate CCCE and Biola London pages from ColdFusion to newly designed pages. 
     start_date: "2015.04"
     tags:
-      - design
+      - backlog
+      - web design
       - cms
       - coldfusion migration
       - photography
@@ -93,7 +104,8 @@ projects:
     description: "TBD: Migrate from ColdFusion to ??."
     start_date: "2015.04"
     tags:
-      - design
+      - backlog
+      - web design
       - cms
       - coldfusion migration
   - title: Science and Religion
@@ -101,7 +113,8 @@ projects:
     description: "TBD: Migrate from ColdFusion to ??."
     start_date: "2015.04"
     tags:
-      - design
+      - backlog
+      - web design
       - cms
       - coldfusion migration
   - title: Registrar
@@ -109,23 +122,27 @@ projects:
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
     start_date: "2015.04"
     tags:
+      - backlog
       - coldfusion migration
   - title: Campus Safety
     slug: campus-safety
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
     start_date: "2015.04"
     tags:
+      - backlog
       - coldfusion migration
   - title: Auxiliary Services
     slug: auxiliary-services
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
     start_date: "2015.04"
     tags:
+      - backlog
       - coldfusion migration
   - title: Facilities Services
     slug: facilities-services
     description: "Migrate off Coldfusion. Most content is already accounted for in the Directory. Find home for remaining content." 
     start_date: "2015.03"
     tags:
+      - backlog
       - cms
       - coldfusion migration
