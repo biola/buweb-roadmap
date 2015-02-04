@@ -60,3 +60,11 @@ data_sources:
   -
     type:         project
     items_root:   /external/project
+
+deploy:
+  static1a.prod:
+    kind: rsync
+    dst: "static1a.prod.biola.edu:/srv/static/apps.biola.edu/web-roadmap"
+  static1b.prod:
+    kind: rsync
+    dst: "static1b.prod.biola.edu:/srv/static/apps.biola.edu/web-roadmap"
