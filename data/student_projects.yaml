@@ -21,3 +21,14 @@ projects:
     skillsets:
       - web design
       - ruby devs
+  - title: Student Mobile App P.O.C.
+    slug: student-mobile-app-poc
+    description: "Build a proof of concept (P.O.C.) of a native mobile app for current students."
+    start_date: "2015.04"
+    status:
+      - backlog
+    initiatives:
+      - mobile app
+    skillsets:
+      - web design
+      - ruby devs

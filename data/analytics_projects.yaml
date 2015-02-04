@@ -1,0 +1,12 @@
+projects:
+  - title: Improve advertising conversion tracking
+    slug: improve-advertising-conversion-tracking
+    description: Work with UCM Advertising team to review the google analytics implementation and available data. Propose and implement solutions that allow us to better track the effectiveness of our advertising dollars. This may require updating our privacy policy.
+    start_date: "TBD"
+    status:
+      - backlog
+    initiatives:
+      - bpi
+      - insight
+    skillsets:
+      - analytics
