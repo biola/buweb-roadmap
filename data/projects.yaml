@@ -3,277 +3,410 @@ projects:
     slug: music
     description: no description available
     start_date: "2015.01"
-    tags:
+    status:
       - in progress
-      - web design
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
       - ruby devs
+      - web design
       - content migration
   - title: News and Events Publishing
     slug: news-events
     description: "Phase 1: build news and events into WCMS."
     start_date: "2015.01"
-    tags:
+    status:
       - in progress
+    initiatives:
+      - bpi
       - cms
-  - title: "Gloval Nav and Site Structure (Part 1)"
+    skillsets:
+      - ruby devs
+  - title: "Global Nav and Site Structure (Part 1)"
     slug: nav-site-structure-1
-    description: no description available
+    description: Define the first two levels of a new site structure and design a navigation system around the new site structure.
     start_date: "2015.02"
-    tags:
+    status:
       - backlog
+    initiatives:
+      - style guide
+      - biola.edu
+    skillsets:
       - web design
-  - title: "Gloval Nav and Site Structure (Part 2)"
+  - title: "Global Nav and Site Structure (Part 2)"
     slug: nav-site-structure-2
-    description: no description available
+    description: Define the first two levels of a new site structure and design a navigation system around the new site structure.
     start_date: "2015.03"
-    tags:
+    status:
       - backlog
+    initiatives:
+      - style guide
+      - biola.edu
+    skillsets:
       - web design
-  - title: "Gloval Nav and Site Structure (Part 3)"
+  - title: "Global Nav and Site Structure (Part 3)"
     slug: nav-site-structure-3
     description: roll out new global navigation system
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
-      - web design
+    initiatives:
+      - style guide
       - cms
+      - biola.edu
+    skillsets:
+      - web design
       - django devs
+      - ruby devs
   - title: Biola Now Redesign
     slug: biola-now
     description: no description available
     start_date: "2015.02"
-    tags:
+    status:
       - backlog
-      - web design
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - web design
+      - ruby devs
   - title: Publications/Documents
     slug: publications
     description: Finish Publication model in WCMS. Deploy a publications section to www.
     start_date: "2015.02"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
-      - front end
+      - biola.edu
+    skillsets:
+      - ruby devs
   - title: Features
     slug: features
     description: build out WCMS to handle features. build features API. build django plugin for pulling features from WCMS
     start_date: "2015.02"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - api
+      - biola.edu
+    skillsets:
+      - ruby devs
       - django devs
   - title: Events Publishing Integration
     slug: events-publishing-integration
     description: create and deploy a django plugin to pull WCMS events to Django websites
     start_date: "2015.02"
-    tags:
+    status:
       - backlog
+    initiatives:
       - api
+      - bpi
+    skillsets:
+      - ruby devs
       - django devs
   - title: News Publishing Integration
     slug: news-publishing-integration
     description: create and deploy a django plugin to pull WCMS events to Django websites
     start_date: "2015.02"
-    tags:
+    status:
       - backlog
+    initiatives:
       - api
+      - bpi
+    skillsets:
+      - ruby devs
       - django devs
   - title: Capital Campaign Events
     slug: capital-campaign-events
     description: No description available.
     start_date: "2015.02"
-    tags:
+    status:
       - backlog
+    initiatives:
+      - capital campaign
+    skillsets:
       - web design
       - django devs
-      - capital campaign
   - title: Event Landing Pages and Conferences
     slug: event-sites
     description: "Build out WCMS to handle event landing pages and conferences. Include user registrations, email marketing integration, and design a few standard layouts."
     start_date: "TBD"
-    tags:
+    status:
       - backlog
-      - web design
+    initiatives:
       - cms
+      - bpi
+      - biola.edu
+      - style guide
+    skillsets:
+      - web design
+      - ruby devs
   - title: Capital Campaign Giving Site Changes
     slug: capital-campaign-giving-changes
     description: Giving site changes (designed by Graphic Designers?) and implemented by IT Developers.
     start_date: "2015.03"
-    tags:
+    status:
       - backlog
+    initiatives:
+      - capital campaign
+    skillsets:
       - web design
       - django devs
-      - capital campaign
   - title: Capital Campaign Landing Page
     slug: capital-campaign-landing-page
     description: Landing pages designed by Graphic Designers and implemented by IT Developers.
     start_date: "2015.03"
-    tags:
+    status:
       - backlog
+    initiatives:
+      - capital campaign
+    skillsets:
       - web design
       - django devs
-      - capital campaign
   - title: Capital Campaign Fundraising Challenge
     slug: capital-campaign-fundraising-challenge
     description: Landing pages designed by Graphic Designers and implemented by IT Developers.
     start_date: "2015.08"
-    tags:
+    status:
       - backlog
-      - web design
+    initiatives:
       - cms
       - capital campaign
-  - title: Faculty Development Resources
-    slug: faculty-development-resources
-    description: "Create a single page of faculty development resources and links. Content is from Office of Educational Effectiveness."
-    start_date: "2015.04"
-    tags:
-      - backlog
-      - cms
+    skillsets:
+      - web design
+      - ruby devs
   - title: Philosophy
     slug: philosophy
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.05"
-    tags:
+    status:
       - backlog
-      - photography
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - content migration
+      - photography
+      - ruby devs
   - title: Sociology
     slug: sociology
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.05"
-    tags:
+    status:
       - backlog
-      - photography
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - content migration
+      - photography
+      - ruby devs
   - title: English
     slug: english
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.06"
-    tags:
+    status:
       - backlog
-      - photography
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - content migration
+      - photography
+      - ruby devs
   - title: Communication Disorders
     slug: comm-disorders
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.06"
-    tags:
+    status:
       - backlog
-      - photography
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - content migration
+      - photography
+      - ruby devs
   - title: Modern Languages
     slug: modern-languages
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.07"
-    tags:
+    status:
       - backlog
-      - photography
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - content migration
+      - photography
+      - ruby devs
   - title: Communications
     slug: communications
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.07"
-    tags:
+    status:
       - backlog
-      - photography
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - content migration
+      - photography
+      - ruby devs
   - title: CMA
     slug: cma
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.08"
-    tags:
+    status:
       - backlog
-      - photography
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - content migration
+      - photography
+      - ruby devs
   - title: Math
     slug: math
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015.08"
-    tags:
+    status:
       - backlog
-      - photography
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - content migration
+      - photography
+      - ruby devs
   - title: Redesigned biola.edu/about
     slug: redesign-biola-about
     description: Design and build a new biola.edu/about section.
     start_date: "TBD"
-    tags:
+    status:
       - backlog
+    initiatives:
+      - cms
+      - biola.edu
+    skillsets:
       - photography
       - web design
-      - cms
+      - ruby devs
   - title: Redesigned biola.edu/academics
     slug: redesign-biola-academics
     description: Design and build a new biola.edu/academics landing page.
     start_date: "TBD"
-    tags:
+    status:
       - backlog
-      - web design
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - web design
+      - ruby devs
   - title: Redesign catalog and degree requirement sheets pages
     slug: redesign-catalog-drs
     description: Design and build a new biola.edu/catalog and biola.edu/academics/degree-requirement-sheets
     start_date: "TBD"
-    tags:
+    status:
       - backlog
+    initiatives:
+      - bpi
+      - cms
+      - biola.edu
+    skillsets:
       - web design
+      - ruby devs
+      - content migration
   - title: Redesign Apologetics pages
     slug: redesign-apologetics
     description: no description available.
     start_date: "TBD"
-    tags:
+    status:
       - backlog
+    initiatives:
+      - biola.edu
+    skillsets:
       - web design
-      - web design
+      - ruby devs
+      - content migration
   - title: Redesign Talbot
     slug: redesign-talbot
     description: no description available.
     start_date: "TBD"
-    tags:
+    status:
       - backlog
-      - web design
-      - web design
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - web design
       - ruby devs
+      - content migration
   - title: Redesign Rosemead
     slug: redesign-rosemead
     description: no description available.
     start_date: "TBD"
-    tags:
+    status:
       - backlog
-      - web design
-      - web design
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - web design
       - ruby devs
+      - content migration
   - title: Redesign School of Education
     slug: redesign-soe
     description: no description available.
     start_date: "TBD"
-    tags:
+    status:
       - backlog
-      - web design
-      - web design
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - web design
       - ruby devs
+      - content migration
   - title: Redesign Crowell School of Business
     slug: redesign-crowell
     description: no description available.
     start_date: "TBD"
-    tags:
+    status:
       - backlog
-      - web design
-      - web design
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - web design
       - ruby devs
+      - content migration
   - title: Reorganize Cook School of Intercultural Studies Grad Pages
     slug: reorganize-csics
     description: no description available.
     start_date: "TBD"
-    tags:
+    status:
       - backlog
-      - web design
-      - web design
+    initiatives:
       - cms
+      - biola.edu
+    skillsets:
+      - web design
+      - ruby devs
+      - content migration
+  - title: Brand Identity Resource Guide Website
+    slug: brand-identity-resource-guide
+    description: no description available.
+    start_date: "TBD"
+    status:
+      - backlog
+    initiatives:
+      - biola.edu
+      - bpi
+    skillsets:
+      - web design
       - ruby devs

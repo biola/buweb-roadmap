@@ -3,6 +3,9 @@ projects:
     slug: trogdir
     description: Replace PHP-based WS system with Trogdir and ruby-based syncinators.
     start_date: "2015.02"
-    tags:
-      - trogdir
+    status:
       - in progress
+    initiatives:
+      - trogdir
+    skillsets:
+      - ruby devs

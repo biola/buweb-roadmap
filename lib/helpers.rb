@@ -7,10 +7,32 @@ def sorted_projects
   end
 end
 
-def project_tag_classes(tags=[])
+def project_tag_classes(values=[])
   classes = []
-  tags.each do |tag|
-    classes << "category-#{tag.gsub(/[^a-z0-9\-_]+/, "-")}"
+  unless values.nil?
+    values.each do |tag|
+      classes << "category-#{tag.gsub(/[^a-z0-9\-_]+/, "-")}"
+    end
+  end
+  return classes
+end
+
+def project_status_classes(values=[])
+  classes = []
+  unless values.nil?
+    values.each do |tag|
+      classes << "status-#{tag.gsub(/[^a-z0-9\-_]+/, "-")}"
+    end
+  end
+  return classes
+end
+
+def project_skillset_classes(values=[])
+  classes = []
+  unless values.nil?
+    values.each do |tag|
+      classes << "skillsets-#{tag.gsub(/[^a-z0-9\-_]+/, "-")}"
+    end
   end
   return classes
 end

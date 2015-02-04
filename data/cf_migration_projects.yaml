@@ -3,146 +3,226 @@ projects:
     slug: philosophy-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.03"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
       - photography
+      - ruby devs
   - title: Journalism Subject Pages
     slug: journalism-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.02"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
       - photography
+      - ruby devs
   - title: History Subject Pages
     slug: history-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.03"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
       - photography
+      - ruby devs
   - title: Political Science Subject Pages
     slug: political-science-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.03"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
       - photography
+      - ruby devs
   - title: Biblical Studies Subject Pages
     slug: biblical-studies-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.03"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
       - photography
+      - ruby devs
   - title: Psychology Subject Pages
     slug: psychology-studies-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
       - photography
+      - ruby devs
   - title: Christian Ministries Subject Pages
     slug: christian-ministries-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
       - photography
+      - ruby devs
   - title: Nursing Subject Pages
     slug: nursing-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
       - photography
+      - ruby devs
   - title: KHPE Subject Pages
     slug: khpe-studies-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
       - photography
+      - ruby devs
   - title: Art Subject Pages
     slug: art-studies-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
       - photography
+      - ruby devs
   - title: CCCE/Study Abroad
     slug: ccce-study-abroad
     description: Migrate CCCE and Biola London pages from ColdFusion to newly designed pages. 
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
-      - web design
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - web design
+      - content migration
       - photography
+      - ruby devs
   - title: Apologetics
     slug: apologetics
     description: "TBD: Migrate from ColdFusion to ??."
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
-      - web design
+    initiatives:
       - cms
       - coldfusion migration
+    skillsets:
+      - web design
+      - content migration
+      - ruby devs
   - title: Science and Religion
     slug: science-religion
     description: "TBD: Migrate from ColdFusion to ??."
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
-      - web design
+    initiatives:
       - cms
       - coldfusion migration
+    skillsets:
+      - web design
+      - content migration
+      - ruby devs
   - title: Registrar
     slug: registrar
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
+    initiatives:
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
   - title: Campus Safety
     slug: campus-safety
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
+    initiatives:
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
   - title: Auxiliary Services
     slug: auxiliary-services
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
     start_date: "2015.04"
-    tags:
+    status:
       - backlog
+    initiatives:
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
   - title: Facilities Services
     slug: facilities-services
     description: "Migrate off Coldfusion. Most content is already accounted for in the Directory. Find home for remaining content." 
     start_date: "2015.03"
-    tags:
+    status:
       - backlog
+    initiatives:
       - cms
       - coldfusion migration
+      - biola.edu
+    skillsets:
+      - content migration
+      - ruby devs
