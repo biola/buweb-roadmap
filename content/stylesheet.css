@@ -1,6 +1,6 @@
 #control-bar { text-align: center; background-color: #fff; padding: 20px; }
 #control-bar .group label { margin-right: 8px; font-weight: bold;}
-#control-bar .group .btn{ margin-right: 8px; }
+#control-bar .group .btn{ margin: 4px 8px 4px 0px; }
 #control-bar .row { margin-bottom: 11px;}
 #projects-list { background-color: #fff; padding-top: 5px;}
 

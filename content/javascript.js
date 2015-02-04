@@ -6,7 +6,7 @@ $( document ).ready(function() {
       $('#projects-list').mixItUp({
         animation: {
           duration: 400,
-          effects: 'fade translateZ(-360px) stagger(34ms)',
+          effects: 'fade',
           easing: 'ease'
         },
         controls: {
