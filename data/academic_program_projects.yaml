@@ -6,10 +6,10 @@ projects:
       1) new academic subject and degree pages, 
       2) department page, and
       3) central news and events site (Biola Now).
+      Phase 1: Create design comps and determine a home for all content.
     start_date: "2015-01"
-    due_date: "2015-02-15"
     status:
-      - in progress
+      - done
     initiatives:
       - cms
       - biola.edu
@@ -24,6 +24,7 @@ projects:
       1) new academic subject and degree pages, 
       2) department page, and
       3) central news and events site (Biola Now).
+      Phase 2: Build pages, add content, and launch site.
     start_date: "2015-02"
     due_date: "2015-02-15"
     status:

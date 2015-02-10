@@ -1,10 +1,10 @@
 projects:
   - title: News and Events Publishing (Part 1)
     slug: news-events
-    description: "Build news and events functions into the new web content management system (WCMS)."
+    description: "Build news and events functions into the new web content management system (WCMS). Phase 1: basic interface."
     start_date: "2015-01"
     status:
-      - in progress
+      - done
     initiatives:
       - bpi
       - cms
@@ -12,7 +12,9 @@ projects:
       - ruby devs
   - title: News and Events Publishing (Part 2)
     slug: news-events
-    description: "Build news and events functions into the new web content management system (WCMS)."
+    description: >
+      Build news and events functions into the new web content management system (WCMS). 
+      Phase 2: delegated permissions, WS API intgration, and Biola Now integration.
     start_date: "2015-02"
     status:
       - in progress
