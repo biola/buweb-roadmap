@@ -2,7 +2,7 @@ projects:
   - title: Philosophy Subject Pages
     slug: philosophy-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015.03"
+    start_date: "2015-03"
     status:
       - backlog
     initiatives:
@@ -16,7 +16,7 @@ projects:
   - title: Journalism Subject Pages
     slug: journalism-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015.02"
+    start_date: "2015-02"
     status:
       - backlog
     initiatives:
@@ -30,7 +30,7 @@ projects:
   - title: History Subject Pages
     slug: history-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015.03"
+    start_date: "2015-03"
     status:
       - backlog
     initiatives:
@@ -44,7 +44,7 @@ projects:
   - title: Political Science Subject Pages
     slug: political-science-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015.03"
+    start_date: "2015-03"
     status:
       - backlog
     initiatives:
@@ -58,7 +58,7 @@ projects:
   - title: Biblical Studies Subject Pages
     slug: biblical-studies-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015.03"
+    start_date: "2015-03"
     status:
       - backlog
     initiatives:
@@ -72,7 +72,7 @@ projects:
   - title: Psychology Subject Pages
     slug: psychology-studies-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -86,7 +86,7 @@ projects:
   - title: Christian Ministries Subject Pages
     slug: christian-ministries-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -100,7 +100,7 @@ projects:
   - title: Nursing Subject Pages
     slug: nursing-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -114,7 +114,7 @@ projects:
   - title: KHPE Subject Pages
     slug: khpe-studies-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -128,7 +128,7 @@ projects:
   - title: Art Subject Pages
     slug: art-studies-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -142,7 +142,7 @@ projects:
   - title: CCCE/Study Abroad
     slug: ccce-study-abroad
     description: Migrate CCCE and Biola London pages from ColdFusion to newly designed pages. 
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -157,7 +157,7 @@ projects:
   - title: Apologetics
     slug: apologetics
     description: "TBD: Migrate from ColdFusion to ??."
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -170,7 +170,7 @@ projects:
   - title: Science and Religion
     slug: science-religion
     description: "TBD: Migrate from ColdFusion to ??."
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -183,7 +183,7 @@ projects:
   - title: Registrar
     slug: registrar
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -194,7 +194,7 @@ projects:
   - title: Campus Safety
     slug: campus-safety
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -205,7 +205,7 @@ projects:
   - title: Auxiliary Services
     slug: auxiliary-services
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -216,7 +216,7 @@ projects:
   - title: Facilities Services
     slug: facilities-services
     description: "Migrate off Coldfusion. Most content is already accounted for in the Directory. Find home for remaining content." 
-    start_date: "2015.03"
+    start_date: "2015-03"
     status:
       - backlog
     initiatives:

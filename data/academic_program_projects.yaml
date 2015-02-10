@@ -1,8 +1,13 @@
 projects:
   - title: Music Subject Pages
     slug: music
-    description: no description available
-    start_date: "2015.01"
+    description: >
+      Replace current department microsite with 
+      1) new academic subject and degree pages, 
+      2) department page, and
+      3) central news and events site (Biola Now).
+    start_date: "2015-01"
+    due_date: "2015-02-15"
     status:
       - in progress
     initiatives:
@@ -15,7 +20,7 @@ projects:
   - title: Philosophy
     slug: philosophy
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
-    start_date: "2015.05"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -28,7 +33,7 @@ projects:
   - title: Sociology
     slug: sociology
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
-    start_date: "2015.05"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -41,7 +46,7 @@ projects:
   - title: English
     slug: english
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
-    start_date: "2015.06"
+    start_date: "2015-06"
     status:
       - backlog
     initiatives:
@@ -54,7 +59,7 @@ projects:
   - title: Communication Disorders
     slug: comm-disorders
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
-    start_date: "2015.06"
+    start_date: "2015-06"
     status:
       - backlog
     initiatives:
@@ -67,7 +72,7 @@ projects:
   - title: Modern Languages
     slug: modern-languages
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
-    start_date: "2015.07"
+    start_date: "2015-07"
     status:
       - backlog
     initiatives:
@@ -80,7 +85,7 @@ projects:
   - title: Communications
     slug: communications
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
-    start_date: "2015.07"
+    start_date: "2015-07"
     status:
       - backlog
     initiatives:
@@ -93,7 +98,7 @@ projects:
   - title: CMA
     slug: cma
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
-    start_date: "2015.08"
+    start_date: "2015-08"
     status:
       - backlog
     initiatives:
@@ -106,7 +111,7 @@ projects:
   - title: Math
     slug: math
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
-    start_date: "2015.08"
+    start_date: "2015-08"
     status:
       - backlog
     initiatives:

@@ -2,7 +2,7 @@ projects:
   - title: Capital Campaign Giving Site Changes
     slug: capital-campaign-giving-changes
     description: Giving site changes (designed by Graphic Designers?) and implemented by IT Developers.
-    start_date: "2015.03"
+    start_date: "2015-03"
     status:
       - backlog
     initiatives:
@@ -13,7 +13,7 @@ projects:
   - title: Capital Campaign Landing Page
     slug: capital-campaign-landing-page
     description: Landing pages designed by Graphic Designers and implemented by IT Developers.
-    start_date: "2015.03"
+    start_date: "2015-03"
     status:
       - backlog
     initiatives:
@@ -24,7 +24,7 @@ projects:
   - title: Capital Campaign Fundraising Challenge
     slug: capital-campaign-fundraising-challenge
     description: Landing pages designed by Graphic Designers and implemented by IT Developers.
-    start_date: "2015.08"
+    start_date: "2015-08"
     status:
       - backlog
     initiatives:
@@ -36,7 +36,7 @@ projects:
   - title: Capital Campaign Events
     slug: capital-campaign-events
     description: No description available.
-    start_date: "2015.02"
+    start_date: "2015-02"
     status:
       - backlog
     initiatives:

@@ -1,9 +1,18 @@
-def sorted_projects
+def scheduled_projects
   projects = @items.select do |i|
-    i.identifier.start_with?('/external/project/')
+    i.identifier.start_with?('/external/project/') && i[:start_date] != nil
   end
   projects.sort_by do |e|
     [ e[:start_date], e[:title] ]
+  end
+end
+
+def unscheduled_projects
+  projects = @items.select do |i|
+    i.identifier.start_with?('/external/project/') && i[:start_date].nil?
+  end
+  projects.sort_by do |e|
+    [ e[:title] ]
   end
 end
 
@@ -35,4 +44,10 @@ def project_skillset_classes(values=[])
     end
   end
   return classes
+end
+
+def start_date_label(string)
+  if string
+    string.strftime('%B') || "Not Scheduled"
+  end
 end

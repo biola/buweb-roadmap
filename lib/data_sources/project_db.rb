@@ -1,3 +1,5 @@
+require 'chronic'
+
 class ProjectDataSource < ::Nanoc::DataSource
   identifier :project
 
@@ -13,6 +15,9 @@ class ProjectDataSource < ::Nanoc::DataSource
 
   def items
     @db["projects"].map do |project|
+      # parse time fields
+      project["start_date"] = Chronic.parse(project["start_date"])
+      # create Nanoc item
       Nanoc::Item.new(
         '',
         project,

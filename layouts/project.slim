@@ -1,0 +1,11 @@
+.project.mix class = (project_tag_classes(project[:initiatives]) + project_status_classes(project[:status]) + project_skillset_classes(project[:skillsets])).uniq.join(" ")
+  .panel.panel-default
+    .panel-heading
+      h3.panel-title 
+        = project[:title]
+    .panel-body
+      p=project[:description]
+    .panel-footer
+      - project[:initiatives].each do |tag|
+        span.label.label-default = tag
+        '

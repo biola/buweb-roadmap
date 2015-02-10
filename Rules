@@ -18,14 +18,14 @@ compile '*' do
     # don’t filter stylesheets
   elsif item[:extension] == 'js'
     # don’t filter stylesheets
-  elsif item[:extension] == 'slim'
-    filter :slim
-    layout 'default'
-    filter :relativize_paths, type: :html
+  # elsif item[:extension] == 'slim'
+  #   filter :slim
+  #   layout 'default'
+  #   filter :relativize_paths, type: :html
   elsif item.binary?
     # don’t filter binary items
   else
-    filter :erb
+    filter :slim
     layout 'default'
     filter :relativize_paths, type: :html
   end
@@ -47,4 +47,4 @@ route '*' do
   end
 end
 
-layout '*', :erb
+layout '*', :slim

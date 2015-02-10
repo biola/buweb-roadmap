@@ -2,7 +2,7 @@ projects:
   - title: Faculty Development Resources
     slug: faculty-development-resources
     description: "Create a single page of faculty development resources and links. Content is from Office of Educational Effectiveness."
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -13,7 +13,7 @@ projects:
   - title: Employee News Blog
     slug: employee-blog
     description: An internal/private employee news blog to replace inside.biola.edu communication.
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -24,7 +24,7 @@ projects:
   - title: Employee Support Pages
     slug: employee-support-pages
     description: "Design and build a site or section of www for staff and faculty. The site will be organized around topic and tasks with links to related departments."
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:

@@ -2,7 +2,7 @@ projects:
   - title: News and Events Publishing
     slug: news-events
     description: "Phase 1: build news and events into WCMS."
-    start_date: "2015.01"
+    start_date: "2015-01"
     status:
       - in progress
     initiatives:
@@ -13,7 +13,7 @@ projects:
   - title: "Global Nav and Site Structure (Part 1)"
     slug: nav-site-structure-1
     description: Define the first two levels of a new site structure and design a navigation system around the new site structure.
-    start_date: "2015.02"
+    start_date: "2015-02"
     status:
       - backlog
     initiatives:
@@ -24,7 +24,7 @@ projects:
   - title: "Global Nav and Site Structure (Part 2)"
     slug: nav-site-structure-2
     description: Define the first two levels of a new site structure and design a navigation system around the new site structure.
-    start_date: "2015.03"
+    start_date: "2015-03"
     status:
       - backlog
     initiatives:
@@ -35,7 +35,7 @@ projects:
   - title: "Global Nav and Site Structure (Part 3)"
     slug: nav-site-structure-3
     description: roll out new global navigation system
-    start_date: "2015.04"
+    start_date: "2015-04"
     status:
       - backlog
     initiatives:
@@ -49,7 +49,7 @@ projects:
   - title: Biola Now Redesign
     slug: biola-now
     description: no description available
-    start_date: "2015.02"
+    start_date: "2015-02"
     status:
       - backlog
     initiatives:
@@ -61,7 +61,7 @@ projects:
   - title: Publications/Documents
     slug: publications
     description: Finish Publication model in WCMS. Deploy a publications section to www.
-    start_date: "2015.02"
+    start_date: "2015-02"
     status:
       - backlog
     initiatives:
@@ -72,7 +72,7 @@ projects:
   - title: Features
     slug: features
     description: build out WCMS to handle features. build features API. build django plugin for pulling features from WCMS
-    start_date: "2015.02"
+    start_date: "2015-02"
     status:
       - backlog
     initiatives:
@@ -85,7 +85,7 @@ projects:
   - title: Events Publishing Integration
     slug: events-publishing-integration
     description: create and deploy a django plugin to pull WCMS events to Django websites
-    start_date: "2015.02"
+    start_date: "2015-02"
     status:
       - backlog
     initiatives:
@@ -97,7 +97,7 @@ projects:
   - title: News Publishing Integration
     slug: news-publishing-integration
     description: create and deploy a django plugin to pull WCMS events to Django websites
-    start_date: "2015.02"
+    start_date: "2015-02"
     status:
       - backlog
     initiatives:

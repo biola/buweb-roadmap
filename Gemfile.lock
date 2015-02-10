@@ -8,6 +8,7 @@ GEM
     celluloid-io (0.15.0)
       celluloid (>= 0.15.0)
       nio4r (>= 0.5.0)
+    chronic (0.10.2)
     coderay (1.1.0)
     colored (1.2)
     cri (2.6.0)
@@ -66,6 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   adsf
+  chronic
   guard-nanoc
   nokogiri
   slim

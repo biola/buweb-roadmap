@@ -43,20 +43,16 @@ header.container-fluid.text-center
         a.btn.btn-info.filter data-filter=".skillsets-web-design" Web Design
 .container-fluid#projects-list
   .container
-    - sorted_projects.group_by{|x| x[:start_date]}.each do |start_date,projects|
+    - scheduled_projects.group_by{|x| x[:start_date]}.each do |start_date,projects|
       .row
         .col-md-2
-          h3#january = start_date
+          h3 = start_date_label(start_date)
         .col-md-10
           - projects.each do |project|
-            .project.mix class = (project_tag_classes(project[:initiatives]) + project_status_classes(project[:status]) + project_skillset_classes(project[:skillsets])).uniq.join(" ")
-              .panel.panel-default
-                .panel-heading
-                  h3.panel-title 
-                    = project[:title]
-                .panel-body
-                  p=project[:description]
-                .panel-footer
-                  - project[:initiatives].each do |tag|
-                    span.label.label-default = tag
-                    '
+            == render 'project', project: project
+    .row
+      .col-md-2
+        h3 = "Unscheduled"
+      .col-md-10
+        - unscheduled_projects.each do |project|
+          == render 'project', project: project
