@@ -1,8 +1,19 @@
 projects:
-  - title: News and Events Publishing
+  - title: News and Events Publishing (Part 1)
     slug: news-events
-    description: "Phase 1: build news and events into WCMS."
+    description: "Build news and events functions into the new web content management system (WCMS)."
     start_date: "2015-01"
+    status:
+      - in progress
+    initiatives:
+      - bpi
+      - cms
+    skillsets:
+      - ruby devs
+  - title: News and Events Publishing (Part 2)
+    slug: news-events
+    description: "Build news and events functions into the new web content management system (WCMS)."
+    start_date: "2015-02"
     status:
       - in progress
     initiatives:
@@ -12,7 +23,9 @@ projects:
       - ruby devs
   - title: "Global Nav and Site Structure (Part 1)"
     slug: nav-site-structure-1
-    description: Define the first two levels of a new site structure and design a navigation system around the new site structure.
+    description: >
+      Define the first two levels of a new site structure and design a navigation system around the new site structure.
+      Phase 1: Begin with a core model workshop for Prospective Students content. Identify top tasks, Biola's primary business goals, and document our core content.
     start_date: "2015-02"
     status:
       - backlog
@@ -48,7 +61,12 @@ projects:
       - ruby devs
   - title: Biola Now Redesign
     slug: biola-now
-    description: no description available
+    description: >
+      Design and build a new version of now.biola.edu. The new design needs to 
+      1) be mobile friendly, 
+      2) support a central calendar, 
+      3) aggregate content from multiple Biola sites (eg. Open Biola, The Good Book Blog),
+      4) and make it easy to find content by both topic/category and department.
     start_date: "2015-02"
     status:
       - backlog

@@ -1,5 +1,5 @@
 projects:
-  - title: Music Subject Pages
+  - title: Music Subject Pages (Part 1)
     slug: music
     description: >
       Replace current department microsite with 
@@ -7,6 +7,24 @@ projects:
       2) department page, and
       3) central news and events site (Biola Now).
     start_date: "2015-01"
+    due_date: "2015-02-15"
+    status:
+      - in progress
+    initiatives:
+      - cms
+      - biola.edu
+    skillsets:
+      - ruby devs
+      - web design
+      - content migration
+  - title: Music Subject Pages (Part 2)
+    slug: music-2
+    description: >
+      Replace current department microsite with 
+      1) new academic subject and degree pages, 
+      2) department page, and
+      3) central news and events site (Biola Now).
+    start_date: "2015-02"
     due_date: "2015-02-15"
     status:
       - in progress

@@ -35,7 +35,7 @@ projects:
       - ruby devs
   - title: Capital Campaign Events
     slug: capital-campaign-events
-    description: No description available.
+    description: TBD - use Graphic Designers and Web Developers as needed to build landing pages for Capital Campaign events.
     start_date: "2015-02"
     status:
       - backlog
