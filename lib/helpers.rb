@@ -51,3 +51,10 @@ def start_date_label(string)
     string.strftime('%B') || "Not Scheduled"
   end
 end
+
+def project_status_label_class(status = "backlog")
+  return "warning" if status.include? "backlog"
+  return "success" if status.include? "in progress"
+  return "default" if status.include? "done"
+  return "default"
+end
