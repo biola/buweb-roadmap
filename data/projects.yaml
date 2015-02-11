@@ -191,3 +191,48 @@ projects:
     skillsets:
       - web design
       - ruby devs
+  - title: Living Style Guide
+    slug: living-style-guide
+    description: >
+      Create a style guide that is 
+      1) easily updated across websites and apps, 
+      2) provides standardized UI components and
+      3) easily integrates with ruby-based applications and websites.
+    start_date: "TBD"
+    effort: 3
+    status:
+      - backlog
+    initiatives:
+      - biola.edu
+      - style guide
+    skillsets:
+      - ruby devs
+  - title: Rebuild BOTR to use WCMS
+    slug: rebuild-botr
+    description: >
+      Rebuild www.biola.edu/on-the-road to use WCMS content so Apologetics can manage the content themselves.
+    start_date: "2015-03"
+    effort: 1
+    status:
+      - backlog
+    initiatives:
+      - bpi
+      - cms
+    skillsets:
+      - ruby devs
+  - title: Hire content management student workers
+    slug: hire-content-management-student-workers
+    description: >
+      We need more staff to process content changes. 
+      This will let us migrate content off of ColdFusion faster and 
+      help us with the web.support@biola.edu content change requests.
+    start_date: "2015-02"
+    effort: 1
+    status:
+      - backlog
+    initiatives:
+      - biola.edu
+      - coldfusion migration
+    skillsets:
+      - content migration
+      - hiring
