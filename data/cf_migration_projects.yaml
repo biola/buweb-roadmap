@@ -9,9 +9,9 @@ projects:
       - cms
       - coldfusion migration
       - biola.edu
+      - undergrad pages
     skillsets:
       - content migration
-      - photography
       - ruby devs
   - title: Journalism Subject Pages
     slug: journalism-subject
@@ -23,9 +23,9 @@ projects:
       - cms
       - coldfusion migration
       - biola.edu
+      - undergrad pages
     skillsets:
       - content migration
-      - photography
       - ruby devs
   - title: History Subject Pages
     slug: history-subject
@@ -37,9 +37,9 @@ projects:
       - cms
       - coldfusion migration
       - biola.edu
+      - undergrad pages
     skillsets:
       - content migration
-      - photography
       - ruby devs
   - title: Political Science Subject Pages
     slug: political-science-subject
@@ -51,9 +51,9 @@ projects:
       - cms
       - coldfusion migration
       - biola.edu
+      - undergrad pages
     skillsets:
       - content migration
-      - photography
       - ruby devs
   - title: Biblical Studies Subject Pages
     slug: biblical-studies-subject
@@ -65,9 +65,9 @@ projects:
       - cms
       - coldfusion migration
       - biola.edu
+      - undergrad pages
     skillsets:
       - content migration
-      - photography
       - ruby devs
   - title: Psychology Subject Pages
     slug: psychology-studies-subject
@@ -79,9 +79,9 @@ projects:
       - cms
       - coldfusion migration
       - biola.edu
+      - undergrad pages
     skillsets:
       - content migration
-      - photography
       - ruby devs
   - title: Christian Ministries Subject Pages
     slug: christian-ministries-subject
@@ -93,9 +93,9 @@ projects:
       - cms
       - coldfusion migration
       - biola.edu
+      - undergrad pages
     skillsets:
       - content migration
-      - photography
       - ruby devs
   - title: Nursing Subject Pages
     slug: nursing-subject
@@ -107,9 +107,9 @@ projects:
       - cms
       - coldfusion migration
       - biola.edu
+      - undergrad pages
     skillsets:
       - content migration
-      - photography
       - ruby devs
   - title: KHPE Subject Pages
     slug: khpe-studies-subject
@@ -121,9 +121,9 @@ projects:
       - cms
       - coldfusion migration
       - biola.edu
+      - undergrad pages
     skillsets:
       - content migration
-      - photography
       - ruby devs
   - title: Art Subject Pages
     slug: art-studies-subject
@@ -135,9 +135,9 @@ projects:
       - cms
       - coldfusion migration
       - biola.edu
+      - undergrad pages
     skillsets:
       - content migration
-      - photography
       - ruby devs
   - title: CCCE/Study Abroad
     slug: ccce-study-abroad
@@ -152,8 +152,8 @@ projects:
     skillsets:
       - web design
       - content migration
-      - photography
       - ruby devs
+      - undergrad pages
   - title: Apologetics
     slug: apologetics
     description: "TBD: Migrate from ColdFusion to ??."
