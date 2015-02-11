@@ -5,10 +5,18 @@
         = project[:title]
     .panel-body
       p=project[:description]
-    .panel-footer 
-      - project[:status].each do |tag|
-        span.label class="label-#{project_status_label_class(tag)}" = tag
-        '
+      strong Initiatives: 
+      '
       - project[:initiatives].each do |tag|
-        span.label.label-default = tag
+        span.label.label-primary = tag
         '
+      .clearfix
+      strong Skillsets: 
+      '
+      - project[:skillsets].each do |tag|
+        span.label.label-info = tag
+        '
+    / .panel-footer 
+      / - project[:initiatives].each do |tag|
+      /   span.label.label-default = tag
+      /   '

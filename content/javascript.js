@@ -15,6 +15,10 @@ $( document ).ready(function() {
         }
       });  
     });
+
+    $('#projects-list .panel-heading').click(function(){
+        $(this).siblings('.panel-body').toggle();
+    });
     // $(function() {
     //   $(".category-filter").click(function() {  //use a class, since your ID gets mangled
     //     $(this).toggleClass("active");      //add the class to the clicked element

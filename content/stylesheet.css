@@ -3,6 +3,13 @@
 #control-bar .group .btn{ margin: 4px 8px 4px 0px; }
 #control-bar .row { margin-bottom: 11px;}
 #projects-list { background-color: #fff; padding-top: 5px;}
+#projects-list .panel-heading { cursor: pointer; }
+#projects-list .panel-heading .status { margin-right: -18px; }
+#projects-list .panel-heading .panel-title:hover { text-decoration: underline; }
+#projects-list .panel-body {display: none;}
+#projects-list .project.status-in-progress .panel-heading { background-color: #4caf50; color: #fff; }
+#projects-list .project.status-in-progress .panel-body { display: block; }
+#projects-list .project.status-done .panel-heading .panel-title { color: #ccc; } 
 
 .nav.nav-pills .clear, .nav.nav-pills .nav-header {
   padding: 5px 15px;

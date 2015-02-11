@@ -14,9 +14,15 @@ header.container-fluid.text-center
       .group.status-filters
         label Status:
         / a.btn.btn-info.filter data-filter="all" All
-        a.btn.btn-warning.filter data-filter=".status-backlog" Backlog
-        a.btn.btn-success.filter data-filter=".status-in-progress" In Progress
-        a.btn.btn-default.filter data-filter=".status-done" Done
+        a.btn.btn-warning.filter data-filter=".status-backlog" 
+          => "Backlog"
+          span.badge = scheduled_projects.count{|p| p[:status].include? "backlog" }
+        a.btn.btn-success.filter data-filter=".status-in-progress"
+          => "In Progress"
+          span.badge = scheduled_projects.count{|p| p[:status].include? "in progress" }
+        a.btn.btn-default.filter data-filter=".status-done"
+          => "Done"
+          span.badge = scheduled_projects.count{|p| p[:status].include? "done" }
     .row
       .group.category-filters
         label Initiatives:
@@ -36,7 +42,6 @@ header.container-fluid.text-center
         a.btn.btn-info.filter data-filter=".skillsets-content-migration" Content Migration
         a.btn.btn-info.filter data-filter=".skillsets-django-devs" Django
         a.btn.btn-info.filter data-filter=".skillsets-graphic-design" Graphic Design
-        a.btn.btn-info.filter data-filter=".skillsets-photography" Photography
         a.btn.btn-info.filter data-filter=".skillsets-ruby-devs" Ruby
         a.btn.btn-info.filter data-filter=".skillsets-web-design" Web Design
 .container-fluid#projects-list
@@ -45,8 +50,19 @@ header.container-fluid.text-center
       .row
         .col-md-2
           h3 = start_date_label(start_date)
+          dl.summary
+            - projects.collect {|p| p[:status]}.flatten.uniq.sort.each do |status|
+              dt.pull-left => "#{status.capitalize}: "
+              dd
+                span.badge = projects.count {|p| p[:status].include? status }
+            dt Initiatives:
+            dd
+              '
+              - projects.collect{|p| p[:initiatives]}.flatten.uniq.sort.each do |tag|
+                span.label.label-primary = tag
+                '
         .col-md-10
-          - projects.each do |project|
+          - projects.sort_by{|p| p[:status]}.reverse.each do |project|
             == render 'project', project: project
     .row
       .col-md-2
