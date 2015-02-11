@@ -47,14 +47,23 @@ header.container-fluid.text-center
 .container-fluid#projects-list
   .container
     - scheduled_projects.group_by{|x| x[:start_date]}.each do |start_date,projects|
+      - period_summary = get_summary_for(projects)
       .row
         .col-md-2
           h3 = start_date_label(start_date)
+          / p=period_summary
           dl.summary
             - projects.collect {|p| p[:status]}.flatten.uniq.sort.each do |status|
               dt.pull-left => "#{status.capitalize}: "
               dd
                 span.badge = projects.count {|p| p[:status].include? status }
+            dt.pull-left Effort:
+            dd
+              span #{projects.collect{|p| p[:effort]}.inject{|sum,e| sum+e}}w
+              .progress
+                .progress-bar role="progressbar" aria-valuenow="#{period_summary[:percent_complete]}" aria-valuemin="0" aria-valuemax="100" style="width: #{period_summary[:percent_complete]}%;"
+                  = period_summary[:percent_complete]
+
             dt Initiatives:
             dd
               '

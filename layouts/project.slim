@@ -16,7 +16,8 @@
       - project[:skillsets].each do |tag|
         span.label.label-info = tag
         '
-    / .panel-footer 
+    .panel-footer 
+      strong.effort #{project[:effort]}w
       / - project[:initiatives].each do |tag|
       /   span.label.label-default = tag
       /   '

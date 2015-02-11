@@ -3,6 +3,7 @@ projects:
     slug: news-events
     description: "Build news and events functions into the new web content management system (WCMS). Phase 1: basic interface."
     start_date: "2015-01"
+    effort: 2
     status:
       - done
     initiatives:
@@ -16,6 +17,7 @@ projects:
       Build news and events functions into the new web content management system (WCMS). 
       Phase 2: delegated permissions, WS API intgration, and Biola Now integration.
     start_date: "2015-02"
+    effort: 3
     status:
       - in progress
     initiatives:
@@ -29,6 +31,7 @@ projects:
       Define the first two levels of a new site structure and design a navigation system around the new site structure.
       Phase 1: Begin with a core model workshop for Prospective Students content. Identify top tasks, Biola's primary business goals, and document our core content.
     start_date: "2015-02"
+    effort: 3
     status:
       - backlog
     initiatives:
@@ -40,6 +43,7 @@ projects:
     slug: nav-site-structure-2
     description: Define the first two levels of a new site structure and design a navigation system around the new site structure.
     start_date: "2015-03"
+    effort: 4
     status:
       - backlog
     initiatives:
@@ -51,6 +55,7 @@ projects:
     slug: nav-site-structure-3
     description: roll out new global navigation system
     start_date: "2015-04"
+    effort: 2
     status:
       - backlog
     initiatives:
@@ -70,6 +75,7 @@ projects:
       3) aggregate content from multiple Biola sites (eg. Open Biola, The Good Book Blog),
       4) and make it easy to find content by both topic/category and department.
     start_date: "2015-02"
+    effort: 3
     status:
       - backlog
     initiatives:
@@ -80,8 +86,9 @@ projects:
       - ruby devs
   - title: Publications/Documents
     slug: publications
-    description: Finish Publication model in WCMS. Deploy a publications section to www.
+    description: Finish Publication model in WCMS. Deploy a publications section to www. Required before we can move administrative departments like Registrar or Campus Safety off of ColdFusion.
     start_date: "2015-02"
+    effort: 1
     status:
       - backlog
     initiatives:
@@ -93,8 +100,9 @@ projects:
     slug: features
     description: build out WCMS to handle features. build features API. build django plugin for pulling features from WCMS
     start_date: "2015-02"
+    effort: 2
     status:
-      - backlog
+      - in progress
     initiatives:
       - cms
       - api
@@ -181,7 +189,7 @@ projects:
       - content migration
   - title: Brand Identity Resource Guide Website
     slug: brand-identity-resource-guide
-    description: no description available.
+    description: A UCM-initiated project. Details to be worked out.
     start_date: "TBD"
     status:
       - backlog
