@@ -1,5 +1,5 @@
 projects:
-  - title: Music Subject Pages (Part 1)
+  - title: Music Undergrad Pages (Part 1)
     slug: music
     description: >
       Replace current department microsite with 
@@ -13,11 +13,12 @@ projects:
     initiatives:
       - cms
       - biola.edu
+      - webfaction migration
     skillsets:
       - ruby devs
       - web design
       - content migration
-  - title: Music Subject Pages (Part 2)
+  - title: Music Undergrad Pages (Part 2)
     slug: music-2
     description: >
       Replace current department microsite with 
@@ -32,11 +33,12 @@ projects:
     initiatives:
       - cms
       - biola.edu
+      - webfaction migration
     skillsets:
       - ruby devs
       - web design
       - content migration
-  - title: Philosophy
+  - title: Philosophy Undergrad Pages
     slug: philosophy
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015-05"
@@ -45,10 +47,11 @@ projects:
     initiatives:
       - cms
       - biola.edu
+      - webfaction migration
     skillsets:
       - content migration
       - ruby devs
-  - title: Sociology
+  - title: Sociology Undergrad Pages
     slug: sociology
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015-05"
@@ -57,10 +60,11 @@ projects:
     initiatives:
       - cms
       - biola.edu
+      - webfaction migration
     skillsets:
       - content migration
       - ruby devs
-  - title: English
+  - title: English Undergrad Pages
     slug: english
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015-06"
@@ -69,10 +73,11 @@ projects:
     initiatives:
       - cms
       - biola.edu
+      - webfaction migration
     skillsets:
       - content migration
       - ruby devs
-  - title: Communication Disorders
+  - title: Communication Disorders Undergrad Pages
     slug: comm-disorders
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015-06"
@@ -81,10 +86,11 @@ projects:
     initiatives:
       - cms
       - biola.edu
+      - webfaction migration
     skillsets:
       - content migration
       - ruby devs
-  - title: Modern Languages
+  - title: Modern Languages Undergrad Pages
     slug: modern-languages
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015-07"
@@ -93,10 +99,11 @@ projects:
     initiatives:
       - cms
       - biola.edu
+      - webfaction migration
     skillsets:
       - content migration
       - ruby devs
-  - title: Communications
+  - title: Communications Undergrad Pages
     slug: communications
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015-07"
@@ -105,10 +112,11 @@ projects:
     initiatives:
       - cms
       - biola.edu
+      - webfaction migration
     skillsets:
       - content migration
       - ruby devs
-  - title: CMA
+  - title: CMA Undergrad Pages
     slug: cma
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015-08"
@@ -117,10 +125,11 @@ projects:
     initiatives:
       - cms
       - biola.edu
+      - webfaction migration
     skillsets:
       - content migration
       - ruby devs
-  - title: Math
+  - title: Math Undergrad Pages
     slug: math
     description: Migrate from Django to WCMS and the new undergrad subject and program pages.
     start_date: "2015-08"
@@ -129,12 +138,16 @@ projects:
     initiatives:
       - cms
       - biola.edu
+      - webfaction migration
     skillsets:
       - content migration
       - ruby devs
   - title: Redesign Apologetics pages
     slug: redesign-apologetics
-    description: no description available.
+    description: >
+      Apply graduate program template(s),
+      customize for school, 
+      rebuild website off of WCMS.
     start_date: "TBD"
     status:
       - backlog
@@ -148,6 +161,7 @@ projects:
     slug: redesign-talbot
     description: no description available.
     start_date: "TBD"
+    effort: 8w
     status:
       - backlog
     initiatives:
@@ -157,10 +171,14 @@ projects:
       - web design
       - ruby devs
       - content migration
-  - title: Redesign Rosemead
+  - title: Rosemead Redesign and Rebuild
     slug: redesign-rosemead
-    description: no description available.
+    description: >
+      Apply graduate program template(s),
+      customize for school, 
+      rebuild website off of WCMS.
     start_date: "TBD"
+    effort: 4w
     status:
       - backlog
     initiatives:
@@ -172,7 +190,10 @@ projects:
       - content migration
   - title: Redesign School of Education
     slug: redesign-soe
-    description: no description available.
+    description: >
+      Apply graduate program template(s),
+      customize for school, 
+      rebuild website off of WCMS.
     start_date: "TBD"
     status:
       - backlog
@@ -185,8 +206,12 @@ projects:
       - content migration
   - title: Redesign Crowell School of Business
     slug: redesign-crowell
-    description: no description available.
+    description: >
+      Apply graduate program template(s),
+      customize for school, 
+      rebuild website off of WCMS.
     start_date: "TBD"
+    effort: 6w
     status:
       - backlog
     initiatives:
@@ -200,6 +225,7 @@ projects:
     slug: reorganize-csics
     description: no description available.
     start_date: "TBD"
+    effort: 4w
     status:
       - backlog
     initiatives:

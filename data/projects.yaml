@@ -1,6 +1,6 @@
 projects:
   - title: News and Events Publishing (Part 1)
-    slug: news-events
+    slug: news-events-1
     description: "Build news and events functions into the new web content management system (WCMS). Phase 1: basic interface."
     start_date: "2015-01"
     effort: 2
@@ -12,7 +12,7 @@ projects:
     skillsets:
       - ruby devs
   - title: News and Events Publishing (Part 2)
-    slug: news-events
+    slug: news-events-2
     description: >
       Build news and events functions into the new web content management system (WCMS). 
       Phase 2: delegated permissions, WS API intgration, and Biola Now integration.
@@ -81,6 +81,7 @@ projects:
     initiatives:
       - cms
       - biola.edu
+      - webfaction migration
     skillsets:
       - web design
       - ruby devs
@@ -244,3 +245,19 @@ projects:
     skillsets:
       - content migration
       - hiring
+  - title: New online map
+    slug: new-online-map
+    description: >
+      Rebuild the map so that it uses WCMS for content, 
+      is mobile friendly, and makes it easy to link to specific locations.
+    start_date: "2015-05"
+    effort: 2
+    status:
+      - backlog
+    initiatives:
+      - biola.edu
+      - cms
+      - webfaction migration
+    skillsets:
+      - ruby devs
+      - web design

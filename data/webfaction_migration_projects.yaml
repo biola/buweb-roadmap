@@ -1,0 +1,45 @@
+projects:
+  - title: Upgrade and Migrate Rosemead.edu
+    slug: migrate-rosemead
+    description: Upgrade and migrate off of WebFaction to a Biola-hosted django server.
+    start_date: "2015-03"
+    effort: 1
+    status:
+      - backlog
+    initiatives:
+      - webfaction migration
+    skillsets:
+      - django devs
+  - title: Upgrade and Migrate talbot.edu
+    slug: migrate-talbot
+    description: Upgrade and migrate off of WebFaction to a Biola-hosted django server.
+    start_date: "2015-04"
+    effort: 1
+    status:
+      - backlog
+    initiatives:
+      - webfaction migration
+    skillsets:
+      - django devs
+  - title: Upgrade and Migrate education.biola.edu
+    slug: migrate-education
+    description: Upgrade and migrate off of WebFaction to a Biola-hosted django server.
+    start_date: "2015-05"
+    effort: 1
+    status:
+      - backlog
+    initiatives:
+      - webfaction migration
+    skillsets:
+      - django devs
+  - title: Upgrade and Migrate crowell.biola.edu
+    slug: migrate-crowell
+    description: Upgrade and migrate off of WebFaction to a Biola-hosted django server.
+    start_date: "2015-05"
+    effort: 1
+    status:
+      - backlog
+    initiatives:
+      - webfaction migration
+    skillsets:
+      - django devs

@@ -13,10 +13,30 @@ projects:
     skillsets:
       - content migration
       - ruby devs
-  - title: Journalism Subject Pages
-    slug: journalism-subject
-    description: Migrate from ColdFusion to new Undergrad subject and program pages.
+  - title: Journalism Subject Pages (phase 1)
+    slug: journalism-subject-phase-1
+    description: >
+      Migrate from ColdFusion to new Undergrad subject and program marketing pages. 
+      Phase 1 includes reviewing the content for the marketing pages and designing initial comps.
     start_date: "2015-02"
+    effort: 2
+    status:
+      - backlog
+    initiatives:
+      - cms
+      - coldfusion migration
+      - biola.edu
+      - undergrad pages
+    skillsets:
+      - web design
+  - title: Journalism Subject Pages (Phase 2)
+    slug: journalism-subject-phase-2
+    description: >
+      Migrate from ColdFusion to new Undergrad subject and program pages. 
+      Phase 2 includes implementing the design, building out any required content management features, 
+      migrating the content, and cutting over to the new pages.
+    start_date: "2015-03"
+    effort: 2
     status:
       - backlog
     initiatives:
