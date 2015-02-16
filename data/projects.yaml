@@ -261,3 +261,16 @@ projects:
     skillsets:
       - ruby devs
       - web design
+  - title: School of Education Accreditation Website
+    slug: soe-accreditation-website
+    description: >
+      TBD: Private site to facilitate communication between SOE and accreditating parties.
+    start_date: 
+    effort: 4
+    status:
+      - backlog
+    initiatives:
+      - cms
+    skillsets:
+      - ruby devs
+      - web design
