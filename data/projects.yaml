@@ -74,7 +74,7 @@ projects:
       2) support a central calendar, 
       3) aggregate content from multiple Biola sites (eg. Open Biola, The Good Book Blog),
       4) and make it easy to find content by both topic/category and department.
-    start_date: "2015-02"
+    start_date: "2015-03"
     effort: 3
     status:
       - backlog
@@ -88,7 +88,7 @@ projects:
   - title: Publications/Documents
     slug: publications
     description: Finish Publication model in WCMS. Deploy a publications section to www. Required before we can move administrative departments like Registrar or Campus Safety off of ColdFusion.
-    start_date: "2015-02"
+    start_date: "2015-03"
     effort: 1
     status:
       - backlog
@@ -114,7 +114,7 @@ projects:
   - title: Events Publishing Integration
     slug: events-publishing-integration
     description: create and deploy a django plugin to pull WCMS events to Django websites
-    start_date: "2015-02"
+    start_date: "2015-03"
     status:
       - backlog
     initiatives:
@@ -126,7 +126,7 @@ projects:
   - title: News Publishing Integration
     slug: news-publishing-integration
     description: create and deploy a django plugin to pull WCMS events to Django websites
-    start_date: "2015-02"
+    start_date: "2015-03"
     status:
       - backlog
     initiatives:
@@ -159,7 +159,6 @@ projects:
       - cms
       - biola.edu
     skillsets:
-      - photography
       - web design
       - ruby devs
   - title: Redesigned biola.edu/academics
@@ -238,7 +237,7 @@ projects:
     start_date: "2015-02"
     effort: 1
     status:
-      - backlog
+      - in progress
     initiatives:
       - biola.edu
       - coldfusion migration
@@ -261,12 +260,13 @@ projects:
     skillsets:
       - ruby devs
       - web design
-  - title: School of Education Accreditation Website
-    slug: soe-accreditation-website
+  - title: School of Education Accreditation Website (phase 2)
+    slug: soe-accreditation-website-phase-2
     description: >
-      TBD: Private site to facilitate communication between SOE and accreditating parties.
-    start_date: 
-    effort: 4
+      Private site to facilitate communication between SOE and accreditating parties. 
+      Phase 2: Build prototype and review with SOE.
+    start_date: "2015-06"
+    effort: 1
     status:
       - backlog
     initiatives:
@@ -274,3 +274,98 @@ projects:
     skillsets:
       - ruby devs
       - web design
+  - title: School of Education Accreditation Website (phase 3)
+    slug: soe-accreditation-website-phase-3
+    description: >
+      Private site to facilitate communication between SOE and accreditating parties. 
+      Phase 3: Build final site and migrate production content.
+    start_date: "2015-07"
+    effort: 2
+    status:
+      - backlog
+    initiatives:
+      - cms
+    skillsets:
+      - ruby devs
+      - web design
+  - title: Biola Youth Theatre Rebuild
+    slug: byt-rebuild
+    description: >
+      Almost 25% of web support requests come from BYT and BYMO and each request takes a significant amount of time.
+      The current site is still ColdFusion, requires access to the server, has no CMS behind it, and is not responsive. 
+      1) Create a basic responsive template for BYT. 2) Rebuild site using the new WCMS and a new Ruby front end. 
+      3) Train BYT Staff to update website using WCMS. IDEA: Use youth.biola.edu/theatre/blog as a basic design template for site.
+    start_date: 
+    effort: 2
+    status:
+      - backlog
+    initiatives:
+      - cms
+      - bpi
+    skillsets:
+      - ruby devs
+      - web design
+  - title: Biola Youth Ministry Outreach Rebuild
+    slug: bymo-rebuild
+    description: >
+      Almost 25% of web support requests come from BYT and BYMO and each request takes a significant amount of time.
+      The current site is still ColdFusion, requires access to the server, has no CMS behind it, and is not responsive. 
+      1) Create a basic responsive template for BYMO. 2) Rebuild site using the new WCMS and a new Ruby front end. 
+      3) Train BYMO Staff to update website using WCMS.
+    start_date: 
+    effort: 2
+    status:
+      - backlog
+    initiatives:
+      - cms
+      - bpi
+    skillsets:
+      - ruby devs
+      - web design
+  - title: EmpoweRed Database
+    slug: empowered-db
+    description: >
+      Build an internal web app to 
+      1) facilitate the collection of stories from staff and faculty and 
+      2) provide a searchable database for marketing and PR staff to process 
+      potential stories for various publication channels.
+    start_date: 
+    effort: 2
+    status:
+      - backlog
+    initiatives:
+      - cms
+      - bpi
+    skillsets:
+      - ruby devs
+      - web design
+  - title: University Surplus
+    slug: university-surplus-app
+    description: >
+      A responsive web app that 
+      1) allows the Purchasing department to easily manage surplus items/stock out at Rancho and
+      2) allows employees to easily find and request items from surplus.
+    start_date: 
+    effort: 1
+    status:
+      - backlog
+    initiatives:
+      - bpi
+    skillsets:
+      - ruby devs
+  - title: Library Website Redesign
+    slug: library-website-redesign
+    description: >
+      Migrate the library to WCMS and build a new front end website that is
+      1) responsive, 
+      2) and task oriented.
+      ... that may look like zsr.wfu.edu
+    start_date: 
+    effort: 3
+    status:
+      - backlog
+    initiatives:
+      - biola.edu
+      - cms
+    skillsets:
+      - ruby devs

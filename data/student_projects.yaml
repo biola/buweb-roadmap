@@ -24,11 +24,22 @@ projects:
   - title: Student Mobile App P.O.C.
     slug: student-mobile-app-poc
     description: "Build a proof of concept (P.O.C.) of a native mobile app for current students."
-    start_date: "2015-04"
+    start_date: "2015-02"
     status:
-      - backlog
+      - in progress
     initiatives:
       - mobile app
     skillsets:
       - web design
+      - ruby devs
+  - title: Missions Conference Site
+    slug: missions-conference-2015
+    description: "Migrate missionsconference.com content to WCMS. Rebuild the site with Ruby and host locally."
+    start_date: "2015-02"
+    effort: 1
+    status:
+      - in progress
+    initiatives:
+      - biola.edu
+    skillsets:
       - ruby devs
