@@ -483,3 +483,16 @@ projects:
       - biola.edu
     skillsets:
       - rbuy devs
+  - title: Recruiter WFE Branding and Implementation
+    slug: recruiter-wfe
+    description: >
+      Learn, design, and implement the Recruiter web front end (WFE).
+    start_date: "2015-05"
+    effort: 2
+    status:
+      - backlog
+    initiatives:
+      - biola.edu
+    skillsets:
+      - rbuy devs
+      - web design

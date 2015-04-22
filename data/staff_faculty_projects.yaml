@@ -35,7 +35,7 @@ projects:
   - title: Digital Suggestion Box
     slug: digital-suggestion-box
     description: "Design and build an online suggestion box to replace what is in ISO. This is part of the Action Team suggestions."
-    start_date: 
+    start_date: "2015-06"
     status:
       - backlog
     initiatives:
