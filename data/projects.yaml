@@ -19,7 +19,21 @@ projects:
     start_date: "2015-02"
     effort: 3
     status:
-      - in progress
+      - done
+    initiatives:
+      - bpi
+      - cms
+    skillsets:
+      - ruby devs
+  - title: News and Events Publishing (Part 3)
+    slug: news-events-3
+    description: >
+      Build news and events functions into the new web content management system (WCMS). 
+      Phase 3: UI refinements.
+    start_date: "2015-05"
+    effort: 1
+    status:
+      - backlog
     initiatives:
       - bpi
       - cms
@@ -30,7 +44,7 @@ projects:
     description: >
       Define the first two levels of a new site structure and design a navigation system around the new site structure.
       Phase 1: Begin with a core model workshop for Prospective Students content. Identify top tasks, Biola's primary business goals, and document our core content.
-    start_date: "2015-02"
+    start_date: 
     effort: 3
     status:
       - backlog
@@ -42,7 +56,7 @@ projects:
   - title: "Global Nav and Site Structure (Part 2)"
     slug: nav-site-structure-2
     description: Define the first two levels of a new site structure and design a navigation system around the new site structure.
-    start_date: "2015-03"
+    start_date: 
     effort: 4
     status:
       - backlog
@@ -54,7 +68,7 @@ projects:
   - title: "Global Nav and Site Structure (Part 3)"
     slug: nav-site-structure-3
     description: roll out new global navigation system
-    start_date: "2015-04"
+    start_date: 
     effort: 2
     status:
       - backlog
@@ -66,16 +80,33 @@ projects:
       - web design
       - django devs
       - ruby devs
-  - title: Biola Now Redesign
-    slug: biola-now
+  - title: Event Site (Alpha)
+    slug: event-site-alpha
     description: >
-      Design and build a new version of now.biola.edu. The new design needs to 
-      1) be mobile friendly, 
-      2) support a central calendar, 
-      3) aggregate content from multiple Biola sites (eg. Open Biola, The Good Book Blog),
-      4) and make it easy to find content by both topic/category and department.
-    start_date: "2015-03"
-    effort: 3
+      Design and build a minimum viable product for a central events site. Features include:
+      1) mobile friendly design, 
+      2) pulls from WCMS events database, 
+      3) filters by department, audience, and category.
+    start_date: "2015-04"
+    effort: 2
+    status:
+      - in progress
+    initiatives:
+      - cms
+      - biola.edu
+      - webfaction migration
+    skillsets:
+      - web design
+      - ruby devs
+  - title: Event Site (Beta)
+    slug: event-site-beta
+    description: >
+      Add additional enhancements:
+      1) UI changes as needed, 
+      2) support for event landing pages, 
+      3) and whatever else that is still TBD.
+    start_date: "2015-06"
+    effort: 2
     status:
       - backlog
     initiatives:
@@ -88,22 +119,35 @@ projects:
   - title: Publications/Documents
     slug: publications
     description: Finish Publication model in WCMS. Deploy a publications section to www. Required before we can move administrative departments like Registrar or Campus Safety off of ColdFusion.
-    start_date: "2015-03"
+    start_date: "2015-04"
     effort: 1
     status:
-      - backlog
+      - in progress
     initiatives:
       - cms
       - biola.edu
     skillsets:
       - ruby devs
-  - title: Features
+  - title: Features (Part 2)
+    slug: features-2
+    description: build django plugin for pulling features from WCMS
+    start_date: "2015-05"
+    effort: 1
+    status:
+      - backlog
+    initiatives:
+      - cms
+      - api
+      - biola.edu
+    skillsets:
+      - django devs
+  - title: Features (Part 1)
     slug: features
-    description: build out WCMS to handle features. build features API. build django plugin for pulling features from WCMS
-    start_date: "2015-02"
+    description: build out WCMS to handle features. build features API. 
+    start_date: "2015-03"
     effort: 2
     status:
-      - in progress
+      - done
     initiatives:
       - cms
       - api
@@ -114,9 +158,9 @@ projects:
   - title: Events Publishing Integration
     slug: events-publishing-integration
     description: create and deploy a django plugin to pull WCMS events to Django websites
-    start_date: "2015-03"
+    start_date: "2015-04"
     status:
-      - backlog
+      - in progress
     initiatives:
       - api
       - bpi
@@ -125,7 +169,7 @@ projects:
       - django devs
   - title: News Publishing Integration
     slug: news-publishing-integration
-    description: create and deploy a django plugin to pull WCMS events to Django websites
+    description: create and deploy a django plugin to pull WCMS news to Django websites
     start_date: "2015-03"
     status:
       - backlog
@@ -219,7 +263,7 @@ projects:
     slug: rebuild-botr
     description: >
       Rebuild www.biola.edu/on-the-road to use WCMS content so Apologetics can manage the content themselves.
-    start_date: "2015-03"
+    start_date: "2015-05"
     effort: 1
     status:
       - backlog
@@ -237,7 +281,7 @@ projects:
     start_date: "2015-02"
     effort: 1
     status:
-      - in progress
+      - done
     initiatives:
       - biola.edu
       - coldfusion migration
@@ -369,3 +413,73 @@ projects:
       - cms
     skillsets:
       - ruby devs
+  - title: CMR Blog
+    slug: cmr-blog
+    description: >
+      Design and build a blog for the Center of Marriage & Relationships.
+    start_date: "2015-05"
+    effort: 2
+    status:
+      - backlog
+    initiatives:
+      - biola.edu
+      - cms
+    skillsets:
+      - ruby devs
+  - title: Responsive Home Page
+    slug: responsive-home-page
+    description: >
+      Design and build a new responsive home page for www.biola.edu.
+    start_date: "2015-05"
+    effort: 2
+    status:
+      - backlog
+    initiatives:
+      - biola.edu
+      - cms
+      - coldfusion migration
+    skillsets:
+      - ruby devs
+      - web design
+  - title: Responsive About Pages
+    slug: responsive-about-pages
+    description: >
+      Design and build a new responsive versions of www.biola.edu/about pages.
+    start_date: "2015-05"
+    effort: 2
+    status:
+      - backlog
+    initiatives:
+      - biola.edu
+      - cms
+      - coldfusion migration
+    skillsets:
+      - ruby devs
+      - web design
+  - title: CAS rollout for Django
+    slug: django-cas
+    description: >
+      Integrate CAS SSO for django admin backends.
+    start_date: "2015-04"
+    effort: 2
+    status:
+      - done
+    initiatives:
+      - bpi
+    skillsets:
+      - django devs
+  - title: Career Development Migration off of Wordpress
+    slug: career-wp-migration
+    description: >
+      The Career Development website has been hacked multiple times. 
+      Build and migrate them to a new platform. Integrate their content into the new student
+      support site.
+    start_date: "2015-05"
+    effort: 3
+    status:
+      - backlog
+    initiatives:
+      - cms
+      - biola.edu
+    skillsets:
+      - rbuy devs

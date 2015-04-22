@@ -2,9 +2,9 @@ projects:
   - title: Philosophy Subject Pages
     slug: philosophy-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015-03"
+    start_date: "2015-04"
     status:
-      - backlog
+      - in progress
     initiatives:
       - cms
       - coldfusion migration
@@ -18,7 +18,7 @@ projects:
     description: >
       Migrate from ColdFusion to new Undergrad subject and program marketing pages. 
       Phase 1 includes reviewing the content for the marketing pages and designing initial comps.
-    start_date: "2015-03"
+    start_date: "2015-05"
     effort: 2
     status:
       - backlog
@@ -35,7 +35,7 @@ projects:
       Migrate from ColdFusion to new Undergrad subject and program pages. 
       Phase 2 includes implementing the design, building out any required content management features, 
       migrating the content, and cutting over to the new pages.
-    start_date: "2015-03"
+    start_date: "2015-06"
     effort: 2
     status:
       - backlog
@@ -50,9 +50,9 @@ projects:
   - title: History Subject Pages
     slug: history-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015-03"
+    start_date: "2015-04"
     status:
-      - backlog
+      - in progress
     initiatives:
       - cms
       - coldfusion migration
@@ -64,9 +64,9 @@ projects:
   - title: Political Science Subject Pages
     slug: political-science-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015-03"
+    start_date: "2015-04"
     status:
-      - backlog
+      - in progress
     initiatives:
       - cms
       - coldfusion migration
@@ -78,9 +78,9 @@ projects:
   - title: Biblical Studies Subject Pages
     slug: biblical-studies-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015-03"
+    start_date: "2015-04"
     status:
-      - backlog
+      - in progress
     initiatives:
       - cms
       - coldfusion migration
@@ -92,7 +92,7 @@ projects:
   - title: Psychology Subject Pages
     slug: psychology-studies-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015-04"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -106,7 +106,7 @@ projects:
   - title: Christian Ministries Subject Pages
     slug: christian-ministries-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015-04"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -120,7 +120,7 @@ projects:
   - title: Nursing Subject Pages
     slug: nursing-subject
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015-04"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -133,13 +133,12 @@ projects:
       - ruby devs
   - title: KHPE Subject Pages
     slug: khpe-studies-subject
-    description: Migrate from ColdFusion to new Undergrad subject and program pages.
-    start_date: "2015-04"
+    description: Build KHPE Subject and program pages.
+    start_date: "2015-06"
     status:
       - backlog
     initiatives:
       - cms
-      - coldfusion migration
       - biola.edu
       - undergrad pages
     skillsets:
@@ -150,7 +149,7 @@ projects:
     description: Migrate from ColdFusion to new Undergrad subject and program pages.
     start_date: "2015-04"
     status:
-      - backlog
+      - in progress
     initiatives:
       - cms
       - coldfusion migration
@@ -162,7 +161,7 @@ projects:
   - title: CCCE/Study Abroad
     slug: ccce-study-abroad
     description: Migrate CCCE and Biola London pages from ColdFusion to newly designed pages. 
-    start_date: "2015-04"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -174,23 +173,10 @@ projects:
       - content migration
       - ruby devs
       - undergrad pages
-  - title: Apologetics
+  - title: Apologetics (includes Science and Religion)
     slug: apologetics
-    description: "TBD: Migrate from ColdFusion to ??."
-    start_date: "2015-04"
-    status:
-      - backlog
-    initiatives:
-      - cms
-      - coldfusion migration
-    skillsets:
-      - web design
-      - content migration
-      - ruby devs
-  - title: Science and Religion
-    slug: science-religion
-    description: "TBD: Migrate from ColdFusion to ??."
-    start_date: "2015-04"
+    description: "Use the undergrad template and the previous mockups to rebuild Apologetics (MASR & MACA) pages in new WCMS system."
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -203,7 +189,7 @@ projects:
   - title: Registrar
     slug: registrar
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
-    start_date: "2015-04"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -214,7 +200,7 @@ projects:
   - title: Campus Safety
     slug: campus-safety
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
-    start_date: "2015-04"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -225,7 +211,7 @@ projects:
   - title: Auxiliary Services
     slug: auxiliary-services
     description: "Migrate off Coldfusion. Split department site into Publications, Directory, and Student Support pages." 
-    start_date: "2015-04"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -236,7 +222,7 @@ projects:
   - title: Facilities Services
     slug: facilities-services
     description: "Migrate off Coldfusion. Most content is already accounted for in the Directory. Find home for remaining content." 
-    start_date: "2015-03"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:

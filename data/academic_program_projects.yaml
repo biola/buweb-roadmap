@@ -25,11 +25,31 @@ projects:
       1) new academic subject and degree pages, 
       2) department page, and
       3) central news and events site (Biola Now).
-      Phase 2: Build pages, add content, and launch site.
+      Phase 2: Build pages and add content as it is ready.
     start_date: "2015-02"
     due_date: "2015-02-15"
     status:
-      - in progress
+      - done
+    initiatives:
+      - cms
+      - biola.edu
+      - webfaction migration
+    skillsets:
+      - ruby devs
+      - web design
+      - content migration
+  - title: Music Undergrad Pages (Part 3)
+    slug: music-3
+    description: >
+      Replace current department microsite with 
+      1) new academic subject and degree pages, 
+      2) department page, and
+      3) central news and events site (Biola Now).
+      Phase 3: Build any final pages, add final content, and launch site.
+    start_date: "2015-05"
+    due_date: "2015-05-15"
+    status:
+      - backlog
     initiatives:
       - cms
       - biola.edu

@@ -2,9 +2,9 @@ projects:
   - title: Capital Campaign Giving Site Changes
     slug: capital-campaign-giving-changes
     description: Giving site changes (designed by Graphic Designers?) and implemented by IT Developers.
-    start_date: "2015-03"
+    start_date: "2015-04"
     status:
-      - backlog
+      - in progress
     initiatives:
       - capital campaign
     skillsets:
@@ -13,9 +13,9 @@ projects:
   - title: Capital Campaign Landing Page
     slug: capital-campaign-landing-page
     description: Landing pages designed by Graphic Designers and implemented by IT Developers.
-    start_date: "2015-03"
+    start_date: "2015-04"
     status:
-      - backlog
+      - in progress
     initiatives:
       - capital campaign
     skillsets:
@@ -35,11 +35,11 @@ projects:
       - ruby devs
   - title: Capital Campaign Events
     slug: capital-campaign-events
-    description: TBD - use Graphic Designers and Web Developers as needed to build landing pages for Capital Campaign events.
+    description: Use Graphic Designers and Web Developers as needed to build landing page(s) for Capital Campaign events.
     start_date: "2015-03"
-    effort: 0
+    effort: 1
     status:
-      - backlog
+      - done
     initiatives:
       - capital campaign
     skillsets:

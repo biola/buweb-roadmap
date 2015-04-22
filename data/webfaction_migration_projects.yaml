@@ -5,7 +5,7 @@ projects:
     start_date: "2015-03"
     effort: 1
     status:
-      - backlog
+      - in progress
     initiatives:
       - webfaction migration
     skillsets:
@@ -13,7 +13,7 @@ projects:
   - title: Upgrade and Migrate talbot.edu
     slug: migrate-talbot
     description: Upgrade and migrate off of WebFaction to a Biola-hosted django server.
-    start_date: "2015-04"
+    start_date: "2015-06"
     effort: 1
     status:
       - backlog

@@ -13,7 +13,7 @@ projects:
   - title: Employee News Blog
     slug: employee-blog
     description: An internal/private employee news blog to replace inside.biola.edu communication.
-    start_date: "2015-04"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -24,7 +24,18 @@ projects:
   - title: Employee Support Pages
     slug: employee-support-pages
     description: "Design and build a site or section of www for staff and faculty. The site will be organized around topic and tasks with links to related departments."
-    start_date: "2015-04"
+    start_date: "2015-05"
+    status:
+      - backlog
+    initiatives:
+      - cms
+    skillsets:
+      - web design
+      - ruby devs
+  - title: Digital Suggestion Box
+    slug: digital-suggestion-box
+    description: "Design and build an online suggestion box to replace what is in ISO. This is part of the Action Team suggestions."
+    start_date: 
     status:
       - backlog
     initiatives:

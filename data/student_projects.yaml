@@ -2,7 +2,7 @@ projects:
   - title: Student Life Blog
     slug: student-blog
     description: Student communications blog to replace studentlife.biola.edu articles.
-    start_date: "2015-04"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -13,7 +13,7 @@ projects:
   - title: Student Support Pages
     slug: student-support-pages
     description: "Design and build a site or section of www for students. The site will be organized around topic and tasks with links to related departments."
-    start_date: "2015-03"
+    start_date: "2015-05"
     status:
       - backlog
     initiatives:
@@ -26,19 +26,31 @@ projects:
     description: "Build a proof of concept (P.O.C.) of a native mobile app for current students."
     start_date: "2015-02"
     status:
-      - in progress
+      - done
     initiatives:
       - mobile app
     skillsets:
       - web design
       - ruby devs
+  - title: Evaluate Oohlala Mobile App
+    slug: evaluate-oohlala-mobile
+    description: >
+      Evaluate the Oohlala mobile app platform as a potential campus app geared at 
+      traditional, residential undergrad students.
+    start_date: "2015-04"
+    status:
+      - in progress
+    initiatives:
+      - mobile app
+    skillsets:
+      - analytics
   - title: Missions Conference Site
     slug: missions-conference-2015
     description: "Migrate missionsconference.com content to WCMS. Rebuild the site with Ruby and host locally."
     start_date: "2015-02"
     effort: 1
     status:
-      - in progress
+      - done
     initiatives:
       - biola.edu
     skillsets:
